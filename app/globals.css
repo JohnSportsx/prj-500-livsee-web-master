@@ -1,0 +1,30 @@
+@import url('../public/font/stylesheet.css');
+@import "tailwindcss";
+
+:root {
+  --Livsee-emerald: #365a46;
+  --Livsee-champagne: #f9efc2;
+  --Livse-peach: #eaaa8c;
+  --Livsee-body-bg: #fefbf0;
+  --Live-see-btn: #f9efc2;
+  --Live-see-btn-hover: #ffffff;
+  --color-light-text:#6a3c58;
+
+  --font-sans: 'DM Sans';
+  --font-serif: 'DM Serif Display';
+
+  --logo-bg:#336349;
+  --logo-bdr:#458a64;
+}
+
+body {
+  background: var(--Livsee-body-bg);
+  font-family: var(--font-sans);
+  font-weight: 400;
+}
+
+@layer utilities {
+  .font-dm-serif {
+    font-family: var(--font-serif);
+  }
+}
