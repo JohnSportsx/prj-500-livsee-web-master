@@ -9,8 +9,8 @@ export default function CommonHeroBanner() {
     <section
       className={`relative isolate overflow-hidden text-[var(--Livsee-champagne)]
               bg-[var(--Livsee-emerald)]  
-              bg-[url('${basePath === "" ? "var(--heroBgImageDev)" : "var(--heroBgImageProd)"}')] 
-              lg:bg-[url('${basePath === "" ? "var(--heroLgBgImageDev)" : "var(--heroLgBgImageProd)"}')] 
+              bg-[url(${basePath === "" ? "var(--heroBgImageDev)" : "var(--heroBgImageProd"})] 
+              lg:bg-[url(${basePath === "" ? "var(--heroLgBgImageDev)" : "var(--heroLgBgImageProd"})] 
               bg-cover bg-center min-h-[850px] md:min-h-[1024px] lg:min-h-[1024px] xl:min-h-[900px] 2xl:min-h-[1080px]
               border-b-[6px] xl:border-b-[8px] border-[var(--Livse-peach)]`}
     >
