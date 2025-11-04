@@ -310,7 +310,7 @@ export default function Support() {
                   <input {...getInputProps()} />
                   <div className="text-center">
                     <Image
-                      src="/images/Icons_ui/line-md--cloud-up.svg"
+                      src="images/Icons_ui/line-md--cloud-up.svg"
                       alt="Upload Icon"
                       width={56}
                       height={56}
