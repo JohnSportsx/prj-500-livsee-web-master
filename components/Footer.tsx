@@ -1,4 +1,5 @@
 import Image from "next/image"; 
+import Livsee_Logomark_RGB_champagne from "@/public/images/logo/Livsee-Logomark-RGB_champagne.svg"
 export default function Footer() {
   return (
     <footer>
@@ -7,7 +8,7 @@ export default function Footer() {
        
         <div className="">
             <Image
-                src="images/logo/Livsee-Logomark-RGB_champagne.svg"
+                src={Livsee_Logomark_RGB_champagne}
                 alt="Logo"
                 width={90}
                 height={90}

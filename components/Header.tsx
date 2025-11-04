@@ -4,6 +4,8 @@ import { useState } from "react";
 import Image from "next/image";
 import Link from 'next/link';
 
+import Livsee_Logomark_RGB_champagne from '@/public/images/logo/Livsee-Logomark-RGB_champagne.svg'
+
 
 const NAV = [
   { label: "Meet Livsee®", href: "/" },
@@ -26,7 +28,7 @@ export default function Header() {
       {/* Mobile Logo */}
       <div className="relative block xl:hidden rounded-full w-[60px] md:w-20 lg:w-[90px] aspect-square">
         <Image
-          src="images/logo/Livsee-Logomark-RGB_champagne.svg"
+          src={Livsee_Logomark_RGB_champagne}
           alt="Logo"
           fill
           className="rounded-full object-contain"
@@ -38,7 +40,7 @@ export default function Header() {
       {/* Desktop Logo */}
       <div className="relative hidden xl:block rounded-full w-[100px] md:w-[150px] 2xl:w-[190px] aspect-square">
         <Image
-          src="images/logo/Livsee-Logo-RGB_champagne.svg"
+          src={Livsee_Logomark_RGB_champagne}
           alt="Logo"
           fill
           className="rounded-full object-contain"
