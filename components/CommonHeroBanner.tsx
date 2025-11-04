@@ -7,7 +7,7 @@ interface HeroBannerProps {
   subtitle: string;
 }
 
-const heroImageUrl = `${basePath}images/hero/hero-secondary.jpg`;
+const heroImageUrl = `${basePath}/images/hero/hero-secondary.jpg`;
 
 
 export default function HeroBanner({ title, subtitle }: HeroBannerProps) {

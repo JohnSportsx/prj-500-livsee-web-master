@@ -4,8 +4,8 @@ import Link from "next/link";
 import { config } from "@/app/config";
 const { basePath } = config;
 
-const bgImage = `${basePath}images/hero/hero-mobile.jpg`;
-const lgBgImage = `${basePath}images/hero/hero-desktop.jpg`;
+const bgImage = `${basePath}/images/hero/hero-mobile.jpg`;
+const lgBgImage = `${basePath}/images/hero/hero-desktop.jpg`;
 
 export default function CommonHeroBanner() {
   return (
