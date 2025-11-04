@@ -1,26 +1,22 @@
 "use client";
-import { config } from "@/app/config";
-const {basePath} = config
-
 interface HeroBannerProps {
   title: string;
   subtitle: string;
 }
-
 export default function HeroBanner({ title, subtitle }: HeroBannerProps) {
   return (
        <section
-          className={`
+          className="
             relative isolate overflow-hidden
             min-h-[300px] md:min-h-[400px] h-[300px]
             bg-(--Livsee-emerald)                          
-            bg-[url('${basePath === "" ? "var(--commonnHeroBannerImageDev)" : "var(--commonnHeroBannerImageProd)"}')]     
+            bg-[url('/images/hero/hero-secondary.jpg')]       
             bg-no-repeat bg-center bg-cover                   
             before:content-[''] before:absolute before:inset-0
             before:pointer-events-none
             before:bg-[linear-gradient(90deg,var(--Livsee-emerald)_0%,rgba(54,90,70,0)_18%,rgba(54,90,70,0)_82%,var(--Livsee-emerald)_100%)]
             border-b-[6px] xl:border-b-[8px] border-(--Livse-peach)
-          `}
+          "
         >
       {/* Green overlay */}
 

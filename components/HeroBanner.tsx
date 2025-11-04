@@ -1,18 +1,17 @@
 // Image import removed (not used)
 
 import Link from "next/link";
-import { config } from "@/app/config";
-const { basePath } = config;
 
 export default function CommonHeroBanner() {
   return (
     <section
-      className={`relative isolate overflow-hidden text-[var(--Livsee-champagne)]
-              bg-[var(--Livsee-emerald)]  
-              bg-[url(${basePath === "" ? "var(--heroBgImageDev)" : "var(--heroBgImageProd"})] 
-              lg:bg-[url(${basePath === "" ? "var(--heroLgBgImageDev)" : "var(--heroLgBgImageProd"})] 
-              bg-cover bg-center min-h-[850px] md:min-h-[1024px] lg:min-h-[1024px] xl:min-h-[900px] 2xl:min-h-[1080px]
-              border-b-[6px] xl:border-b-[8px] border-[var(--Livse-peach)]`}
+      className="relative isolate overflow-hidden text-(--Livsee-champagne)
+                 bg-(--Livsee-emerald)  
+                 bg-[url('/images/hero/hero-mobile.jpg')] 
+                 lg:bg-[url('/images/hero/hero-desktop.jpg')] 
+                 bg-cover bg-center min-h-[850px] md:min-h-[1024px] lg:min-h-[1024px] xl:min-h-[900px] 2xl:min-h-[1080px]
+                 border-b-[6px] xl:border-b-[8px] border-(--Livse-peach)
+                 "
     >
       {/* Green overlay */}
 
@@ -24,10 +23,9 @@ export default function CommonHeroBanner() {
               Go beyond the conversation.
             </h1>
             <div className="mt-5 h-1 w-24 bg-(--Livse-peach)" />
-            <p className="mt-5 md:mt-8 2xl:mt-10 w-full md:w-[50%] text-[16px] md:text-[26px] 2xl:text-[36px] leading-[1.4]">
-              Grow revenue and increase occupancy at every stage of the resident
-              journey with Livsee®.
-            </p>
+                <p className="mt-5 md:mt-8 2xl:mt-10 w-full md:w-[50%] text-[16px] md:text-[26px] 2xl:text-[36px] leading-[1.4]">
+                    Grow revenue and increase occupancy at every stage of the resident journey with Livsee®.
+                </p>
             <div className="mt-5 flex flex-wrap gap-2">
               <Link
                 href="#meet_livsee"
@@ -39,8 +37,7 @@ export default function CommonHeroBanner() {
                 See How
               </Link>
 
-              <Link
-                href="#demo"
+              <Link href="#demo"
                 className="rounded-full border-2 border-(--Live-see-btn) text-(--Live-see-btn) font-semibold
                           text-[14px] md:text-[16px] 2xl:text-[20px] px-5 md:px-6 2xl:px-[29px] py-[8.5px] md:py-[9.5px] 2xl:py-[10.5px]
                           hover:border-(--Live-see-btn-hover) hover:text-(--Live-see-btn-hover) hover:bg-transparent
@@ -50,8 +47,11 @@ export default function CommonHeroBanner() {
               </Link>
             </div>
           </div>
+
+
         </div>
       </div>
+
     </section>
   );
 }
