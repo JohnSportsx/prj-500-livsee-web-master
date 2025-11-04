@@ -12,7 +12,7 @@ export default function TeamMembers() {
         <article className="mt-[30px] lg:mt-[40px] xl:mt-[40px] 2xl:mt-[60px] flex flex-col items-center lg:flex-row lg:items-center gap-[20px] md:gap-[20px] 2xl:gap-[30px]">
           <div className="flex-none h-[220px] md:h-[200px] lg:h-[200px] 2xl:h-[280px] w-[220px] md:w-[200px] lg:w-[200px] 2xl:w-[280px] relative">
             <Image
-              src="/images/Bio/Andrea_Michele_Taylor.png"
+              src="images/Bio/Andrea_Michele_Taylor.png"
               alt="Andrea Michele Taylor"
               fill
               className="object-cover"
@@ -99,7 +99,7 @@ export default function TeamMembers() {
         <article className="mt-[30px] lg:mt-[40px] xl:mt-[40px] 2xl:mt-[60px] flex flex-col items-center lg:flex-row lg:items-center gap-[20px] md:gap-[20px] 2xl:gap-[30px]">
           <div className="flex-none h-[220px] md:h-[200px] lg:h-[200px] 2xl:h-[280px] w-[220px] md:w-[200px] lg:w-[200px] 2xl:w-[280px] relative">
             <Image
-              src="/images/Bio/Arul_Selvan.png"
+              src="images/Bio/Arul_Selvan.png"
               alt="Arul Selvan"
               fill
               className="object-cover"

@@ -7,7 +7,7 @@ export default function Footer() {
        
         <div className="">
             <Image
-                src="/images/logo/Livsee-Logomark-RGB_champagne.svg"
+                src="images/logo/Livsee-Logomark-RGB_champagne.svg"
                 alt="Logo"
                 width={90}
                 height={90}

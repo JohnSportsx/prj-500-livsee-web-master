@@ -22,8 +22,8 @@
           <div className="grid grid-cols-2 gap-4 xl:flex xl:justify-center xl:items-center xl:gap-8">
         {/* First image */}
         <div className="relative overflow-hidden xl:w-[50%]">
-          <Image
-            src="/images/MeetLivSee/Meet_mobile1.png"
+            <Image
+              src="images/MeetLivSee/Meet_mobile1.png"
             alt="Mobile preview"
             width={600}
             height={400}
@@ -34,8 +34,8 @@
 
         {/* Second image */}
         <div className="relative overflow-hidden xl:w-[50%]">
-          <Image
-            src="/images/MeetLivSee/Meet_mobile2.png"
+            <Image
+              src="images/MeetLivSee/Meet_mobile2.png"
             alt="Dashboard preview"
             width={600}
             height={400}
@@ -52,7 +52,7 @@
           <div className="hidden xl:block">
             <div className="relative w-[635px] md:w-[500px] 2xl:w-[635px] aspect-[635/500]">
               <Image
-                src="/images/MeetLivSee/Meet_mobile1.png"
+                  src="images/MeetLivSee/Meet_mobile1.png"
                 alt="AI Chat Demo"
                 fill
                 className="object-contain"
@@ -71,7 +71,7 @@
              <div className="shrink-0">
                 <div className="relative w-[60px] md:w-[90px] 2xl:w-[125px] h-auto">
                   <Image
-                    src="/images/MeetLivSee/AI-Chat.png"
+                    src="images/MeetLivSee/AI-Chat.png"
                     alt="Chat Icon"
                     width={125}
                     height={125}
@@ -95,7 +95,7 @@
                <div className="shrink-0">
                   <div className="relative w-[60px] md:w-[90px] 2xl:w-[125px] h-auto">
                     <Image
-                      src="/images/MeetLivSee/Live-data.png"
+                      src="images/MeetLivSee/Live-data.png"
                       alt="Data Icon"
                       width={125}
                       height={125}
@@ -123,7 +123,7 @@
              <div className="shrink-0">
                 <div className="relative w-[60px] md:w-[90px] 2xl:w-[125px] h-auto">
                   <Image
-                    src="/images/MeetLivSee/deep.png"
+                    src="images/MeetLivSee/deep.png"
                     alt="Insights Icon"
                     width={125}
                     height={125}
@@ -145,7 +145,7 @@
               <div className="shrink-0">
                 <div className="relative w-[60px] md:w-[90px] 2xl:w-[125px] h-auto">
                   <Image
-                    src="/images/MeetLivSee/Comprehensive.png"
+                      src="images/MeetLivSee/Comprehensive.png"
                     alt="Communication Icon"
                     width={125}
                     height={125}
@@ -172,7 +172,7 @@
                 <div className="hidden xl:block">
                   <div className="relative w-[635px] md:w-[500px] 2xl:w-[635px] aspect-[635/500]">
                     <Image
-                      src="/images/MeetLivSee/Meet_mobile2.png"
+                      src="images/MeetLivSee/Meet_mobile2.png"
                       alt="Dashboard Insights"
                       fill
                       className="object-contain"

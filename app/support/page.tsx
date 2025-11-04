@@ -1,5 +1,6 @@
 "use client";
 import CommonHeroBanner from "@/components/CommonHeroBanner";
+import Image from "next/image";
 import { useState, ChangeEvent, FormEvent } from "react";
 import { useDropzone } from "react-dropzone"; // Import react-dropzone
 
@@ -308,9 +309,11 @@ export default function Support() {
                 >
                   <input {...getInputProps()} />
                   <div className="text-center">
-                    <img
+                    <Image
                       src="/images/Icons_ui/line-md--cloud-up.svg"
                       alt="Upload Icon"
+                      width={56}
+                      height={56}
                       className="mx-auto mb-2 w-14 lg-w-16"
                     />
                     <span className="text-[14px] md:text-[16px] text-(--Livsee-emerald)">

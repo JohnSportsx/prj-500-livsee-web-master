@@ -13,13 +13,13 @@ function chunk<T>(arr: T[], size: number) {
 
 export default function LogoSlider({
   items = [
-    { src: "/images/Affiliations/dmaa.png", alt: "DMAA" },
-    { src: "/images/Affiliations/rett.png", alt: "RETTC" },
-    { src: "/images/Affiliations/nmhc.png", alt: "NMHC" },
-    { src: "/images/Affiliations/naa.png", alt: "NAA" },
-    { src: "/images/Affiliations/aagd.png", alt: "AAGD" },
-    { src: "/images/Affiliations/us.png", alt: "US Proptech Council" },
-    { src: "/images/Affiliations/home.png", alt: "Home" },
+    { src: "images/Affiliations/dmaa.png", alt: "DMAA" },
+    { src: "images/Affiliations/rett.png", alt: "RETTC" },
+    { src: "images/Affiliations/nmhc.png", alt: "NMHC" },
+    { src: "images/Affiliations/naa.png", alt: "NAA" },
+    { src: "images/Affiliations/aagd.png", alt: "AAGD" },
+    { src: "images/Affiliations/us.png", alt: "US Proptech Council" },
+    { src: "images/Affiliations/home.png", alt: "Home" },
   ],
   autoPlay = true,
   autoPlayMs = 4000,

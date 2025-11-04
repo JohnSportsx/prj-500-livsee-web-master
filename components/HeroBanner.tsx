@@ -1,4 +1,4 @@
-import Image from "next/image";
+// Image import removed (not used)
 
 export default function CommonHeroBanner() {
   return (

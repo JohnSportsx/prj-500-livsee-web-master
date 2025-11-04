@@ -26,7 +26,7 @@ export default function Header() {
       {/* Mobile Logo */}
       <div className="relative block xl:hidden rounded-full w-[60px] md:w-20 lg:w-[90px] aspect-square">
         <Image
-          src="/images/logo/Livsee-Logomark-RGB_champagne.svg"
+          src="images/logo/Livsee-Logomark-RGB_champagne.svg"
           alt="Logo"
           fill
           className="rounded-full object-contain"
@@ -38,7 +38,7 @@ export default function Header() {
       {/* Desktop Logo */}
       <div className="relative hidden xl:block rounded-full w-[100px] md:w-[150px] 2xl:w-[190px] aspect-square">
         <Image
-          src="/images/logo/Livsee-Logo-RGB_champagne.svg"
+          src="images/logo/Livsee-Logo-RGB_champagne.svg"
           alt="Logo"
           fill
           className="rounded-full object-contain"
@@ -102,10 +102,10 @@ export default function Header() {
   {open && (
     <div className="fixed inset-0 bg-[#2e4d3c] z-50">
       <div className="flex items-center justify-between pt-[25px] md:pt-10 px-5 md:px-[40px] lg:px-[40px] xl:px-[100px] 2xl:px-[100px]">
-        <a href="/" className="flex items-center gap-2">
+        <Link href="/" className="flex items-center gap-2">
           <div className="relative block xl:hidden rounded-full w-[60px] md:w-20 lg:w-[90px] aspect-square">
         <Image
-          src="/images/logo/Livsee-Logomark-RGB_champagne.svg"
+          src="images/logo/Livsee-Logomark-RGB_champagne.svg"
           alt="Logo"
           fill
           className="rounded-full object-contain"
@@ -113,7 +113,7 @@ export default function Header() {
           priority
         />
       </div>
-        </a>
+        </Link>
         <button
           onClick={() => setOpen(false)}
           className="rounded-full border-2 border-(--Livsee-champagne) text-(--Livsee-champagne) p-2"
