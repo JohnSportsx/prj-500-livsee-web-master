@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import LogoSlider from "@/components/LogoSlider";
+import Link from "next/link";
 
 export default function TrustedByIndustry() {
   const logos = [
@@ -29,14 +30,14 @@ export default function TrustedByIndustry() {
             Livsee’s affiliations and technology partners are trusted throughout
             the industry.
           </p>
-          <a
+          <Link
             href="/contact"
             className="rounded-full border-2 border-[--Livsee-champagne] text-(--Livsee-champagne) font-semibold
-            text-[14px] md:text-[16px] 2xl:text-[20px] px-5 md:px-6 2xl:px-[29px] py-[8.5px] md:py-[9.5px] 2xl:py-[10.5px]  
+            text-[14px] md:text-[16px] 2xl:text-[20px] px-5 md:px-6 2xl:px-[28px] py-[8.5px] md:py-[9.5px] 2xl:py-[10.5px]  
             hover:border-white hover:text-white hover:bg-transparent transition-colors duration-300"
           >
             Partner With Us
-          </a>
+          </Link>
         </div>
 
         {/* Right column (logos) - Desktop */}

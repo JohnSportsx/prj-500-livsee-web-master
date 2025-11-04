@@ -1,13 +1,15 @@
 // Image import removed (not used)
 
+import Link from "next/link";
+
 export default function CommonHeroBanner() {
   return (
     <section
       className="relative isolate overflow-hidden text-(--Livsee-champagne)
                  bg-(--Livsee-emerald)  
-                 bg-[url('/images/hero/hero-mobile.jpg')] 
-                 md:bg-[url('/images/hero/hero-desktop.jpg')] 
-                 bg-cover bg-center min-h-[850px] md:min-h-[800px] lg:min-h-[800px] xl:min-h-[900px] 2xl:min-h-[1080px]
+                 bg-[url('/livsee/images/hero/hero-mobile.jpg')] 
+                 lg:bg-[url('/livsee/images/hero/hero-desktop.jpg')] 
+                 bg-cover bg-center min-h-[850px] md:min-h-[1024px] lg:min-h-[1024px] xl:min-h-[900px] 2xl:min-h-[1080px]
                  border-b-[6px] xl:border-b-[8px] border-(--Livse-peach)
                  "
     >
@@ -25,24 +27,24 @@ export default function CommonHeroBanner() {
                     Grow revenue and increase occupancy at every stage of the resident journey with Livsee®.
                 </p>
             <div className="mt-5 flex flex-wrap gap-2">
-              <a
+              <Link
                 href="#meet_livsee"
                 className="rounded-full border-2 border-(--Live-see-btn) text-(--Livsee-emerald) font-semibold
-                          text-[14px] md:text-[16px] 2xl:text-[20px] px-5 md:px-6 2xl:px-[29px] py-[8.5px] md:py-[9.5px] 2xl:py-[10.5px]
+                          text-[14px] md:text-[16px] 2xl:text-[20px] px-5 md:px-6 2xl:px-[27px] py-[8.5px] md:py-[9.5px] 2xl:py-[10.5px]
                           hover:border-(--Live-see-btn-hover) hover:text-(--Live-see-btn-hover) bg-(--Livsee-champagne) hover:bg-transparent
                           transition-colors duration-300 inline-block text-centerrounded-full text-center"
               >
                 See How
-              </a>
+              </Link>
 
-              <a href="#demo"
+              <Link href="#demo"
                 className="rounded-full border-2 border-(--Live-see-btn) text-(--Live-see-btn) font-semibold
                           text-[14px] md:text-[16px] 2xl:text-[20px] px-5 md:px-6 2xl:px-[29px] py-[8.5px] md:py-[9.5px] 2xl:py-[10.5px]
                           hover:border-(--Live-see-btn-hover) hover:text-(--Live-see-btn-hover) hover:bg-transparent
                           transition-colors duration-300"
               >
                 Book a Demo
-              </a>
+              </Link>
             </div>
           </div>
 

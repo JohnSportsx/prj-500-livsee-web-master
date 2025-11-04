@@ -4,7 +4,7 @@
   export default function MeetLivsee() {
     return (
     <section className="text-(--color-light-text) border-b-[6px] xl:border-b-[8px] border-(--Livse-peach)" id="meet_livsee">
-      <div className="mx-auto pt-[60] lg:pt-[80] pb-[40] md:pb-[47] px-5 md:px-0">
+      <div className="mx-auto pt-[50px] lg:pt-[80px] pb-[30px] md:pb-[47px] px-5 md:px-0">
         <div className="text-center max-w-full md:max-w-[90%] lg:max-w-[100%] xl:max-w-[65%] 2xl:max-w-[55%]  mx-auto">
           <h2 className="font-serif text-[24px] md:text-[40px] 2xl:text-[47px] leading-[1.2]">
             Meet Livsee: Agentic AI for Multifamily Leasing
@@ -18,7 +18,7 @@
         </div>
       </div>
 
-          <div className="block xl:hidden pb-[40]">
+          <div className="block xl:hidden pb-[30px]">
           <div className="grid grid-cols-2 gap-4 xl:flex xl:justify-center xl:items-center xl:gap-8">
         {/* First image */}
         <div className="relative overflow-hidden xl:w-[50%]">
@@ -46,7 +46,7 @@
       </div>
           </div>
 
-    <div className="mx-auto max-w-fill pb-[60] lg:pb-20">
+    <div className="mx-auto max-w-fill pb-[50px] lg:pb-20">
         
         <div className="grid grid-cols-1 lg:grid-cols-[auto_auto] gap-[15px] lg:gap-[0px] items-center">
           <div className="hidden xl:block">

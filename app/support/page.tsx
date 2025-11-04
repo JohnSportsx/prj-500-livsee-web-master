@@ -149,7 +149,7 @@ export default function Support() {
     <>
       <CommonHeroBanner title="Support" subtitle="How can Livsee help you?" />
       <section className="text-[var(--color-light-text)]">
-        <div className="mx-auto pt-[60px] pb-[60px] px-5 md:px-10 lg:px-10 xl:px-[100px]">
+        <div className="mx-auto pt-[50px] pb-[50px] px-5 md:px-10 lg:px-10 xl:px-[100px]">
           <div className="text-center max-w-full md:max-w-[590px] mx-auto">
             <h2 className="font-serif text-[24px] md:text-[40px] 2xl:text-[47px] leading-[1.2] text-center mb-[30px] lg:mb-[40px] xl:mb-[40px] 2xl:mb-[50px]">
               Submit a Request
@@ -284,6 +284,7 @@ export default function Support() {
 
               {/* Comments */}
               <div className="mb-[20px] md:mb-[24px] 2xl:mb-[30px]">
+                <div className="flex flex-wrap gap-0">
                 <label htmlFor="comments">Comments*</label>
                 <textarea
                   name="comments"
@@ -295,6 +296,7 @@ export default function Support() {
                   placeholder="Details of your request"
                   rows={6}
                 />
+                </div>
                 {errors.comments && (
                   <p className="text-red-500 text-[16px] md:text-[18px] 2xl:text-[20px] mt-2">{errors.comments}</p>
                 )}
@@ -339,7 +341,7 @@ export default function Support() {
               <div className="text-right">
                 <button
                   type="submit"
-                  className="rounded-full border-2 bg-(--Livsee-emerald) text-(--Livsee-champagne) font-semibold text-[16px] md:text-[16px] 2xl:text-[20px] px-5 md:px-6 2xl:px-[29px] py-[8.5px] md:py-[9.5px] 2xl:py-[10.5px] hover:border-(--Livsee-emerald) hover:text-(--Livsee-emerald) hover:bg-transparent transition-colors duration-300 cursor-pointer"
+                  className="rounded-full border-2 bg-(--Livsee-emerald) text-(--Livsee-champagne) font-semibold text-[16px] md:text-[16px] 2xl:text-[20px] px-5 md:px-6 2xl:px-[27px] py-[8.5px] md:py-[9.5px] 2xl:py-[10.5px] hover:border-(--Livsee-emerald) hover:text-(--Livsee-emerald) hover:bg-transparent transition-colors duration-300 cursor-pointer"
                 >
                   Submit
                 </button>

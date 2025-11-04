@@ -10,7 +10,7 @@ export default function HeroBanner({ title, subtitle }: HeroBannerProps) {
             relative isolate overflow-hidden
             min-h-[300px] md:min-h-[400px] h-[300px]
             bg-(--Livsee-emerald)                          
-            bg-[url('/images/hero/hero-secondary.jpg')]       
+            bg-[url('/livsee/images/hero/hero-secondary.jpg')]       
             bg-no-repeat bg-center bg-cover                   
             before:content-[''] before:absolute before:inset-0
             before:pointer-events-none

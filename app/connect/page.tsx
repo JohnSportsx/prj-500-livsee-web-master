@@ -11,7 +11,7 @@ export default function Connect() {
       />
       <section className="text-(--color-light-text)">
 
-        <div className="mx-auto pt-[60px] lg:pt-[80px] pb-[40px] md:pb-[47px] px-5 md:px-0">
+        <div className="mx-auto pt-[50px] lg:pt-[80px] pb-[30px] md:pb-[47px] px-5 md:px-0">
           <div className="text-center max-w-full md:max-w-[90%] lg:max-w-[100%] xl:max-w-[65%] 2xl:max-w-[55%] mx-auto">
             <h2 className="font-serif text-[24px] md:text-[40px] 2xl:text-[47px] leading-[1.2]">
               Livsee News
@@ -22,7 +22,7 @@ export default function Connect() {
           </div>
         </div>
 
-        <div className="max-w-full 2xl:max-w-[79.74%] mx-auto pb-[60] md:pb-[80] px-5 md:px-10 lg:px-10 xl:px-[100px] 2xl:md:px-0">
+        <div className="max-w-full 2xl:max-w-[79.74%] mx-auto pb-[50px] md:pb-[80px] px-5 md:px-10 lg:px-10 xl:px-[100px] 2xl:md:px-0">
           <CardGrid />
         </div>
       </section>

@@ -1,8 +1,9 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function TeamMembers() {
   return (
-    <main className="text-(--color-light-text) antialiased mx-auto pt-[60] md:pt-[80] pb-[60] md:pb-[80] px-5 md:px-10 lg:px-10 xl:px-[100px] 2xl:md:px-0">
+    <main className="text-(--color-light-text) antialiased mx-auto pt-[50] md:pt-[80] pb-[50] md:pb-[80] px-5 md:px-10 lg:px-10 xl:px-[100px] 2xl:md:px-0">
       <section className="max-w-full 2xl:max-w-[1204px] mx-auto">
         <h3 className="font-serif text-[24px] md:text-[40px] 2xl:text-[47px] leading-[1.2] text-center">
           Our Team
@@ -40,7 +41,7 @@ export default function TeamMembers() {
             </p>
 
             <div className="mt-5 flex items-center gap-3">
-              <a
+              <Link
                 href="#"
                 className="group inline-flex h-11 w-11 items-center justify-center rounded-full bg-(--color-light-text) ring-1 ring-black/5 border-2 border-transparent transition-all duration-300 hover:bg-transparent hover:border-(--color-light-text)"
                 aria-label="Mail"
@@ -65,9 +66,9 @@ export default function TeamMembers() {
                     <path d="M10 15c0 -2.76 2.24 -5 5 -5c2.76 0 5 2.24 5 5v5" />
                   </g>
                 </svg>
-              </a>
+              </Link>
 
-              <a
+              <Link
                 href="#"
                 className="group inline-flex h-11 w-11 items-center justify-center rounded-full bg-[var(--color-light-text)] ring-1 ring-black/5 border-2 border-transparent transition-all duration-300 hover:bg-transparent hover:border-[var(--color-light-text)]"
                 aria-label="Mail"
@@ -90,7 +91,7 @@ export default function TeamMembers() {
                     <path d="M3 6.5l9 5.5l9 -5.5" />
                   </g>
                 </svg>
-              </a>
+              </Link>
             </div>
           </div>
         </article>
@@ -125,7 +126,7 @@ export default function TeamMembers() {
             </p>
 
             <div className="mt-5 flex items-center gap-3">
-              <a
+              <Link
                 href="#"
                 className="group inline-flex h-11 w-11 items-center justify-center rounded-full bg-(--color-light-text) ring-1 ring-black/5 border-2 border-transparent transition-all duration-300 hover:bg-transparent hover:border-(--color-light-text)"
                 aria-label="Mail"
@@ -150,9 +151,9 @@ export default function TeamMembers() {
                     <path d="M10 15c0 -2.76 2.24 -5 5 -5c2.76 0 5 2.24 5 5v5" />
                   </g>
                 </svg>
-              </a>
+              </Link>
 
-              <a
+              <Link
                 href="#"
                 className="group inline-flex h-11 w-11 items-center justify-center rounded-full bg-[var(--color-light-text)] ring-1 ring-black/5 border-2 border-transparent transition-all duration-300 hover:bg-transparent hover:border-[var(--color-light-text)]"
                 aria-label="Mail"
@@ -175,7 +176,7 @@ export default function TeamMembers() {
                     <path d="M3 6.5l9 5.5l9 -5.5" />
                   </g>
                 </svg>
-              </a>
+              </Link>
             </div>
           </div>
         </article>
