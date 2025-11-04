@@ -16,11 +16,11 @@
   --logo-bg:#336349;
   --logo-bdr:#458a64;
 
-  --heroBgImageDev: url('/images/hero/hero-mobile.jpg');
+  --heroBgImageDev: url('/public/images/hero/hero-mobile.jpg');
   --heroBgImageProd: url('/livsee/images/hero/hero-mobile.jpg');
-  --heroLgBgImageDev: url('/images/hero/hero-desktop.jpg');
+  --heroLgBgImageDev: url('/public/images/hero/hero-desktop.jpg');
   --heroLgBgImageProd: url('/livsee/images/hero/hero-desktop.jpg');
-  --commonnHeroBannerImageDev: url('/images/hero/hero-secondary.jpg');
+  --commonnHeroBannerImageDev: url('/public/images/hero/hero-secondary.jpg');
   --commonnHeroBannerImageProd: url('/livsee/images/hero/hero-secondary.jpg');
 }
 
