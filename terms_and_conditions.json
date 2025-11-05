@@ -1,0 +1,502 @@
+[
+  {
+    "type": "Section",
+    "title": "1. GENERAL",
+    "content": null,
+    "sub_sections": [
+      {
+        "type": "SubSection",
+        "title": "1.1 General.",
+        "content": "These are the general terms and conditions governing the general legal relationship between Livsee and Customer relating to the mutual covenants and obligations of the Parties set forth herein, and the Order Form for each Property. Livsee’s provision of the Hosted Services is subject to the terms and conditions contained in these Terms.  However, Customer acknowledges and understands that these terms do not, absent execution of an Order Form for the relevant Property, impose any obligation upon Livsee to provide any of the foregoing.",
+        "sub_sub_sections": null
+      },
+      {
+        "type": "SubSection",
+        "title": "1.2 Order Forms.",
+        "content": "Customer and its Affiliates shall be entitled to enter into a separate Order Form for each Property. Each Order Form will identify the Hosted Services subscribed to and to be provided for the Property specified in the Order Form. All terms, conditions, obligations and benefits of and under these Terms shall apply to the Order Form, and each Affiliate that executes an Order Form shall be bound by the terms of these Terms and all references in these Terms to “Customer” shall be deemed a reference to such Affiliate. As a convenience to Customer, upon Customer’s request, Livsee shall separately invoice the signatory (whether Customer or an Affiliate) to each Order Form for the fees due under such Order Form. Customer acknowledges and agrees that Customer shall be responsible for all acts and omissions of its Affiliates, and any act or omission by an Affiliate which, if undertaken by Customer, would constitute a breach of these Terms, shall be deemed a breach of these Terms by Customer.",
+        "sub_sub_sections": null
+      },
+      {
+        "type": "SubSection",
+        "title": "1.3 Order of Precedence.",
+        "content": "In the event of a conflict between these terms and an Order Form, these terms shall govern unless the provisions of the relevant Order Form explicitly state the Parties’ intention that such provisions of the Order Form should supersede these terms.",
+        "sub_sub_sections": null
+      }
+    ]
+  },
+  {
+    "type": "Section",
+    "title": "2. HOSTED SERVICES",
+    "content": null,
+    "sub_sections": [
+      {
+        "type": "SubSection",
+        "title": "2.1 Provision of Access.",
+        "content": "Subject to the terms and conditions contained in these Terms, Livsee hereby grants to Customer a non-exclusive, non-transferable right to access the features and functions of the Licensed Application to receive the Hosted Services that Customer has purchased subscription to during the Term, solely for use by Customer and its Authorized Users in accordance with the terms and conditions herein, at the Property specified in the Order Form. As soon as reasonably practicable after configuration of the Licensed Application by Livsee, Livsee shall provide to Customer, or allow Customer to create, the necessary passwords and network links or connections to allow Customer to access the Hosted Services. Livsee shall also provide to Customer the Documentation to be used by Customer in accessing and using the Hosted Services via the Licensed Application. Customer acknowledges and agrees that, as between Customer and Livsee, Customer shall be responsible for all acts and omissions of Authorized Users, and any act or omission by an Authorized User which, if undertaken by Customer, would constitute a breach of these Terms, shall be deemed a breach of these Terms by Customer.",
+        "sub_sub_sections": [
+          {
+            "type": "SubSubSection",
+            "title": "2.1.1 Authorized User Access to Services; Resident and Other Users’ Access to Services.",
+            "content": "Subject to the terms and conditions herein, and an Authorized User’s acceptance of any Livsee end user terms, Customer may permit any Authorized User to access and use the features and functions of the Hosted Services."
+          },
+          {
+            "type": "SubSubSection",
+            "title": "2.1.2 Users: Passwords, Access, and Notification.",
+            "content": "Customer shall authorize access to, and Livsee will assign or allow the creation of unique passwords and usernames to, the Authorized Users designated by Customer. User logins are for designated Authorized Users only and cannot be shared or used by more than one Authorized User, but any user login may be reassigned to another Authorized User as needed. Customer will be responsible for Authorized Users’ maintenance of the confidentiality of their passwords and usernames and the use by Authorized Users of their passwords and usernames. Customer will also be responsible for all electronic communications, including those containing business information, account registration, account holder information, financial information, Customer data, and all other data of any kind contained within emails or otherwise entered electronically through the Hosted Service or under Customer’s (including Authorized Users’) accounts. Livsee will act as though any electronic communications it receives under Customer’s (including Authorized Users’) passwords, username, and/or account number will have been sent by Customer. Customer shall use commercially reasonable efforts to prevent unauthorized access to or use of the Licensed Application and shall promptly notify Livsee of any known or suspected unauthorized access to or use of the Licensed Application and any loss or theft or unauthorized use of any Authorized User’s password or username.  Livsee shall not be liable for any Authorized User’s misuse of the username, password, or the Licensed Application, or any breach of confidentiality caused by such misuse."
+          }
+        ]
+      },
+      {
+        "type": "SubSection",
+        "title": "2.2 Documentation License.",
+        "content": "Subject to the terms and conditions contained in these Terms, Livsee hereby grants to Customer and its Authorized Users a non-exclusive, non-transferable right and license to use the Documentation during the Term for Customer’s internal purposes in connection with its use of the Licensed Application and Hosted Services as contemplated herein.",
+        "sub_sub_sections": null
+      },
+      {
+        "type": "SubSection",
+        "title": "2.3 Usage Restrictions.",
+        "content": "Customer will not, and will not permit any Authorized Users to, (i) copy or duplicate any of the Hosted Service or any Intellectual Property Rights therein; (ii) decompile, disassemble, reverse engineer or otherwise attempt to obtain or perceive the source code from which any software component of any of the Hosted Service is compiled or interpreted, or apply any other process or procedure to derive the source code of any software included in the Hosted Service, or attempt to do any of the foregoing, and Customer acknowledges that nothing in these Terms will be construed to grant Customer any right to obtain or use such source code; (iii) modify, alter, tamper with or repair any of the Hosted Service, or create any derivative product from any of the foregoing, or attempt to do any of the foregoing, except with the prior written consent of Livsee; (iv) interfere or attempt to interfere in any manner with the functionality or proper working of any of the Hosted Service; (v) use the Hosted Service in violation of the terms of these Terms; (vi) remove, obscure, or alter any notice of any intellectual property or proprietary right appearing on or contained within any of the Hosted Service; or (vii) assign, sublicense, sell, resell, lease, rent, outsource, use in any time-sharing or service bureau arrangement or otherwise transfer or convey, or pledge as security or otherwise encumber, Customer’s rights under Section 2.1. Customer will not use the Hosted Service except in compliance with Livsee’s obligations to any third party, provided that Livsee has notified Customer of such obligations.",
+        "sub_sub_sections": null
+      },
+      {
+        "type": "SubSection",
+        "title": "2.4 Suspension.",
+        "content": "Notwithstanding anything to the contrary in these Terms, Livsee may temporarily suspend Customer’s, any Authorized User’s, and/or any Resident’s access to any portion or all of the Hosted Service if Livsee reasonably determines that (a) there is a threat or attack on any of the Hosted Service; (b) Customer’s or any Authorized User’s use of the Hosted Service disrupts or poses a security risk to the Hosted Service or any other Customer or vendor of Livsee; (c) Customer or any Authorized User is/are using the Hosted Service for fraudulent or illegal activities; (d) subject to applicable law, Customer has ceased to continue its business in the ordinary course, made an assignment for the benefit of creditors or similar disposition of its assets, or become the subject of any bankruptcy, reorganization, liquidation, dissolution or similar proceeding; (e) Livsee’s provision of the Hosted Services to Customer or any Authorized User is prohibited by applicable law; or (f) any vendor of Livsee has suspended or terminated Livsee’s access to or use of any third party services or products required to enable Customer to access the Hosted Service (each such suspension, in accordance with this Section 2.4, a “Service Suspension”). Livsee will make commercially reasonable efforts, circumstances permitting, to provide written notice of any Service Suspension to Customer (including notices sent to Livsee’s registered email address) and to provide updates regarding resumption of access to the Hosted Service following any Service Suspension. Livsee will use commercially reasonable efforts to resume providing access to the Hosted Services as soon as reasonably possible after the event giving rise to the Service Suspension is cured. Livsee will have no liability for any damage, liabilities, losses (including any loss of data or profits) or any other consequences that Customer, any Authorized User or Resident may incur as a result of a Service Suspension.",
+        "sub_sub_sections": null
+      }
+    ]
+  },
+  {
+    "type": "Section",
+    "title": "3. SUPPORT",
+    "content": null,
+    "sub_sections": [
+      {
+        "type": "SubSection",
+        "title": "3.1 Licensed Application Support.",
+        "content": "Livsee shall provide Customer with Documentation and other online resources to assist Customer in its use of the Licensed Application. Subject to Customer complying with its payment obligations under these Terms, Livsee will provide support services under an Order Form during the Order Form Term (defined below), in accordance with Livsee’s standard support terms found at https://Livsee.zendesk.com/hc/en-us.",
+        "sub_sub_sections": null
+      },
+      {
+        "type": "SubSection",
+        "title": "3.2 Limit of Responsibility.",
+        "content": "Customer acknowledges that Livsee is only responsible for correcting Errors caused directly by Licensed Application, and only when such Errors arise in the course of Customer’s or its Authorized User’s use of the License Application in accordance with the Documentation and the terms of these Terms. Livsee will not provide support services to the extent that a reported Error is caused in whole or in part by: (i) any software, hardware, firmware, peripheral, or communications device used in connection with the Licensed Application not provided by Livsee ; (ii) the failure of Customer to follow the most current instructions promulgated by Livsee with respect to the proper use of the Licensed Application; (iii) the negligence of Customer or any third party; (iv) unauthorized use of the Licensed Application; (v) the use by Customer or its Authorized Users of consumables or equipment not provided by Livsee; or (vi) customized software.",
+        "sub_sub_sections": null
+      }
+    ]
+  },
+  {
+    "type": "Section",
+    "title": "4. FEES AND PAYMENTS",
+    "content": null,
+    "sub_sections": [
+      {
+        "type": "SubSection",
+        "title": "4.1 Fees Payable.",
+        "content": "In consideration for Livsee’s performance under these Terms, Customer agrees to pay the amounts set forth in each and all Order Forms as applicable (collectively, the “Fees”) in accordance with the payment terms set forth in the applicable Order Form and these Terms. If an Order Form does not specify payment terms, all Fees due thereunder shall be due upon receipt of the applicable invoice. All Fees are non-cancelable and non-refundable when paid. Customer’s obligation to pay such amounts shall be absolute and unconditional and is not subject to any abatement, set-off, defense or counterclaim. Livsee may, after the end of the Initial Term set forth in an Order Form, increase the Fees set forth in such Order Form, in its sole discretion, provided however, that Livsee shall provide Customer with at least sixty (60) days prior written notice of any such increase.",
+        "sub_sub_sections": null
+      },
+      {
+        "type": "SubSection",
+        "title": "4.2 Late Charges.",
+        "content": "Livsee reserves the right to charge, and Customer agrees to pay, a late charge equal to one and one-half percent (1.5%) per month on any amount that is not the subject of a good faith dispute that is unpaid on the due date, and on any other outstanding balance.",
+        "sub_sub_sections": null
+      },
+      {
+        "type": "SubSection",
+        "title": "4.3 Taxes.",
+        "content": "All amounts payable under these Terms shall exclude all applicable sales, use and other taxes and all applicable export and import fees, customs duties and similar charges. Customer will be responsible for payment of all any such taxes (other than taxes based on Livsee’s income), fees, duties and charges, and any related penalties and interest, arising from the payment of any fees hereunder, the grant of license rights hereunder, or the delivery of services. Customer will make all payments required hereunder to Livsee free and clear of, and without reduction for, any withholding taxes. Any such taxes imposed on any payments hereunder to Livsee will be Customer’s sole responsibility, and Customer will, upon Livsee’s request, provide Livsee with official receipts issued by the appropriate taxing authority, or such other evidence as Livsee may reasonably request, to establish that such taxes have been paid.",
+        "sub_sub_sections": null
+      }
+    ]
+  },
+  {
+    "type": "Section",
+    "title": "5. CONFIDENTIALITY",
+    "content": null,
+    "sub_sections": [
+      {
+        "type": "SubSection",
+        "title": "5.1 Ownership of Confidential Information.",
+        "content": "The Parties acknowledge that during the performance of these Terms, each Party will have access to certain of the other Party’s Confidential Information or Confidential Information of third parties that the disclosing Party is required to maintain as confidential. Both Parties agree that all items of Confidential Information are proprietary to the disclosing Party or such third party, as applicable, and shall remain the sole property of the disclosing Party or such third party.",
+        "sub_sub_sections": null
+      },
+      {
+        "type": "SubSection",
+        "title": "5.2 Mutual Confidentiality Obligations.",
+        "content": "Each Party agrees as follows: (i) to use the Confidential Information only for the purposes described herein; (ii) that such Party will not reproduce the Confidential Information and will hold in confidence and protect the Confidential Information from dissemination to, and use by, any third party; (iii) that neither Party will create any derivative work from Confidential Information disclosed to such Party by the other Party; (iv) to restrict access to the Confidential Information to such of its personnel, agents, and/or consultants, if any, who have a need to have access and who have been advised of and have agreed in writing to treat such information in accordance with the terms of these Terms; and (v) to return or destroy all Confidential Information of the other Party in its possession upon termination or expiration of these Terms.",
+        "sub_sub_sections": null
+      },
+      {
+        "type": "SubSection",
+        "title": "5.3 Confidentiality Exceptions.",
+        "content": "Notwithstanding the foregoing, the provisions of Sections 5.1 and 5.2 shall not apply to Confidential Information that (i) is publicly available or in the public domain at the time disclosed; (ii) is or becomes publicly available or enters the public domain through no fault of the recipient; (iii) is rightfully communicated to the recipient by persons not bound by confidentiality obligations with respect thereto; (iv) is already in the recipient’s possession free of any confidentiality obligations with respect thereto at the time of disclosure; (v) is independently developed by the recipient; or (vi) is approved in writing for release or disclosure by the disclosing Party without restriction. Notwithstanding the foregoing, each Party may disclose Confidential Information to the limited extent required (x) in order to comply with the order of a court or other governmental body, or as otherwise necessary to comply with applicable law, provided that the Party making the disclosure pursuant to the order shall first have given written notice to the other Party and made a reasonable effort to obtain a protective order; or (y) to establish a Party’s rights under these Terms, including to make such court filings as it may be required to do.",
+        "sub_sub_sections": null
+      }
+    ]
+  },
+  {
+    "type": "Section",
+    "title": "6. OWNERSHIP; THIRD PARTY APPLICATIONS; COMPLIANCE",
+    "content": null,
+    "sub_sections": [
+      {
+        "type": "SubSection",
+        "title": "6.1 Hosted Service.",
+        "content": "Customer acknowledges that, as between Customer and Livsee, Livsee and its licensors own all right, title, and interest, including all Intellectual Property Rights in and to the Hosted Service (including all components thereof), and Livsee expressly reserves all rights not expressly granted to Customer in these Terms. Customer shall not engage in any act or omission that would impair Livsee’s and/or its licensors’ Intellectual Property Rights in the Licensed Application, the Hosted Services and any other materials, information, processes or subject matter proprietary to Livsee.",
+        "sub_sub_sections": null
+      },
+      {
+        "type": "SubSection",
+        "title": "6.2 Intellectual Property created in the Performance of Hosted Services.",
+        "content": "Unless otherwise expressly agreed in an Order Form, except to the extent that the same constitutes or embodies Customer’s Confidential Information, ownership of all work product, developments, inventions, technology or materials provided by Livsee in the course of providing the Hosted Services shall be solely owned by Livsee, subject to the usage rights granted to Customer under the relevant Order Form.",
+        "sub_sub_sections": null
+      },
+      {
+        "type": "SubSection",
+        "title": "6.3 Third Party Applications.",
+        "content": "Livsee may allow Customer, or a third party designated by Customer, to access and use to certain Livsee application programming interfaces (each an “API”) so that the Hosted Services may be integrated with such third party’s application, or so that the Hosted Services may provide information to such third party. Any such access to Livsee’s API shall be subject to Livsee’s then current API terms and conditions. Customer acknowledges and agrees that by designating a third party to use the API, Customer grants Livsee permission to share information with such third party including access codes to Resident’s residences, as directed by Customer. Customer acknowledges and agrees that Livsee has no control over, and is not liable for, any act or omission of such third party, and Customer assumes all risks associated with the provision of information to such third party. In addition, Customer may choose to provide Livsee with Resident Data and other data Customer is required to provide hereunder through a third party application to which Customer maintains a separate subscription or license. In such event, Customer shall, at its sole cost and expense, procure for Livsee all rights and licenses necessary to access all such data through such third party application, if Livsee does not already have the right to do so.",
+        "sub_sub_sections": null
+      },
+      {
+        "type": "SubSection",
+        "title": "6.4 Compliance with Applicable Law.",
+        "content": "Each Party represents and warrants that it complies, and at all times during the Term of these Terms, will comply with all laws and regulations, including export and import requirements, data protection, privacy and security laws, in each case as applicable to such Party in its performance under these Terms. In addition, Customer will ensure that it will not use or compile any of the Hosted Service for the purpose of any illegal activities.",
+        "sub_sub_sections": null
+      },
+      {
+        "type": "SubSection",
+        "title": "6.5 TCPA Compliance.",
+        "content": "The Telephone Consumer Protection Act (“TCPA”) is a U.S. federal law that protects consumers from unwanted solicitation by telephone, fax, and text message. The TCPA prohibits using an “Automatic Telephone Dialing System” to contact a consumer without first obtaining the requisite consent. Customer is subject to the restrictions of the TCPA when Customer contacts any person for the purposes of marketing services to them through automated systems. As such, Customer agrees to: (i) before sending any marketing-related message, obtain express written consent from each recipient of the marketing message which acknowledges the consent of the recipient to the on-going receipt of text or pre-recorded voice messages related to Customer’s goods and services. The pre-recorded voice message will identify Customer as the sender of the message, and provide the recipient with the contact information for Customer in accordance with the TCPA and governing regulations. The content of the pre-recorded voice message to the recipient(s) shall be no longer than one minute in length or 150 characters in length for text messages. After prior express consent is obtained, each subsequent message will allow recipients to opt out of receiving further automated marketing messages.",
+        "sub_sub_sections": null
+      }
+    ]
+  },
+  {
+    "type": "Section",
+    "title": "7. DATA, STATISTICS, AND FEEDBACK",
+    "content": null,
+    "sub_sections": [
+      {
+        "type": "SubSection",
+        "title": "7.1 Resident Data.",
+        "content": "As between Customer and Livsee, Customer owns all right, title, and interest in and to the Resident Data, including all Intellectual Property Rights therein. If Livsee is deemed to have any ownership interest in any Resident Data, including any derivative works thereof, then Livsee shall assign, and hereby does assign, irrevocably and on a royalty-free basis, all such ownership interest or other rights therein to Customer.  Customer hereby grants to Livsee a non-exclusive license to use such Resident Data solely in connection with the provision of the Hosted Services to Customer during the Term of these Terms. Customer represents and warrants that it has provided notifications to, obtained consent from, and otherwise has all rights necessary to make available such Resident Data to Livsee, including any Personal Information contained therein and for Livsee to use such Resident Data in accordance with these Terms, and that, to the extent Customer shares or otherwise permits Livsee or the Hosted Services to make use of any credentials to obtain such data or information, such sharing of credentials shall not violate the rights of, or any contractual obligations with, any Resident or third party. Customer is solely responsible for the accuracy, quality, integrity, and legality of the Resident Data and of the means by which Customer acquires and uses such Resident Data.  Livsee will notify Customer of the types of Resident Data that Livsee requires in order for Livsee to provide the Hosted Services to Customer.",
+        "sub_sub_sections": null
+      },
+      {
+        "type": "SubSection",
+        "title": "7.2 Non-Resident Data.",
+        "content": "Customer acknowledges and agrees that Livsee and Customer may receive certain data from users who are not Residents through such users’ access to and use of Livsee (“Non-Resident Data”). Customer’s use of such Non-Resident Data is subject to the license granted by such user to Customer pursuant to the terms of service or privacy policy for Livsee.",
+        "sub_sub_sections": null
+      },
+      {
+        "type": "SubSection",
+        "title": "7.3 Data Security.",
+        "content": "Livsee has implemented and will maintain administrative, technical, and physical safeguards reasonably designed to protect the Licensed Application and Resident Data contained therein against accidental, unauthorized, or unlawful access, disclosure, destruction, loss, or alteration.",
+        "sub_sub_sections": null
+      },
+      {
+        "type": "SubSection",
+        "title": "7.4 Aggregated Statistics.",
+        "content": "Notwithstanding anything else in these Terms or otherwise, Livsee may monitor Customer’s and its Authorized User’s use of the Hosted Services and Licensed Applications and use data and information related to such use in an aggregate and anonymous manner, including to compile statistical and performance information related to the provision and operation of the Hosted Services (“Aggregated Statistics”). As between Livsee and Customer, all right, title and interest in the Aggregated Statistics and all Intellectual Property Rights therein, belong to and are retained solely by Livsee. Customer acknowledges that Livsee will be compiling Aggregated Statistics derived from Resident Data, and Customer’s and its Authorized Users’ actions taken in connection with the Hosted Services and Customer agrees that Livsee may (a) make such Aggregated Statistics publicly available, and (b) use such information to the extent and in the manner permitted by applicable law or regulation and for purposes of data gathering, analysis, service enhancement and marketing, provided that such data and information does not identify Customer, an Authorized User, a Resident, or any Confidential Information of Customer.",
+        "sub_sub_sections": null
+      },
+      {
+        "type": "SubSection",
+        "title": "7.5 Feedback.",
+        "content": "If Customer sends or transmits any communications, comments, questions, suggestions, or related materials to Livsee, whether by letter, email, telephone, or otherwise (“Feedback”), suggesting or recommending changes to the Hosted Services, without limitation, new features or methods relating thereto, all such Feedback is, and will be exclusively owned by Livsee. Customer hereby assigns all right, title, and interest in, and Livsee is free to use, without any attribution or compensation to Customer, any ideas, know-how, concepts, techniques, and all applicable Intellectual Property Rights relating to the Feedback, whether or not patentable, for any purpose whatsoever, including but not limited to, developing, licensing, marketing, and selling, directly or indirectly, products and services using such Feedback. Customer agrees and understands that Livsee is not obligated to use, display, reproduce, or distribute any such ideas, know-how, concepts, or techniques contained in the Feedback, and Customer has no right to compel such use, display, reproduction, or distribution.",
+        "sub_sub_sections": null
+      }
+    ]
+  },
+  {
+    "type": "Section",
+    "title": "8. WARRANTIES",
+    "content": null,
+    "sub_sections": [
+      {
+        "type": "SubSection",
+        "title": "8.1 Mutual Representations and Warranties.",
+        "content": "Each Party hereby represents and warrants that (a) it is duly organized, validly existing and in good standing under the laws of its jurisdiction of incorporation or organization; (b) the execution and performance of these Terms will not conflict with or violate any provision of any law having applicability to such Party; and (c) these Terms, when executed and delivered, will constitute a valid and binding obligation of such Party and will be enforceable against such Party in accordance with its terms.",
+        "sub_sub_sections": null
+      },
+      {
+        "type": "SubSection",
+        "title": "8.2 Disclaimer.",
+        "content": "EXCEPT AS SPECIFICALLY SET FORTH IN THIS AGREEMENT, THE HOSTED SERVICES ARE PROVIDED “AS IS” AND LIVSEE DOES NOT MAKE, AND HEREBY DISCLAIMS, ANY AND ALL WARRANTIES, WHETHER EXPRESS, IMPLIED, STATUTORY, OR OTHERWISE. LIVSEE SPECIFICALLY DISCLAIMS ALL IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, NON-INFRINGEMENT, AND ANY WARRANTIES ARISING FROM A COURSE OF DEALING, USAGE, OR TRADE PRACTICE. EXCEPT AS SPECIFICALLY SET FORTH IN THIS AGREEMENT, LIVSEE MAKES NO WARRANTY OF ANY KIND THAT THE HOSTED SERVICES,OR ANY PRODUCTS OR RESULTS OF THE USE THEREOF, WILL MEET ALL OF CUSTOMER’S OR ANY OTHER PERSON'S PURPOSES OR NEEDS, OPERATE WITHOUT INTERRUPTION, ACHIEVE ANY INTENDED RESULT, BE COMPATIBLE OR WORK WITH ANY SOFTWARE, SYSTEM, OR OTHER SERVICES, OR BE SECURE, ACCURATE, COMPLETE, FREE OF HARMFUL CODE, OR ERROR FREE.",
+        "sub_sub_sections": null
+      }
+    ]
+  },
+  {
+    "type": "Section",
+    "title": "9. LIMITATION OF LIABILITY",
+    "content": null,
+    "sub_sections": [
+      {
+        "type": "SubSection",
+        "title": "9.1 Limitations of Liability.",
+        "content": "EXCEPT WITH REGARD TO A PARTY’S INFRINGEMENT, VIOLATION OR MISAPPROPRIATION OF THE OTHER PARTY’S INTELLECTUAL PROPERTY RIGHTS, OR A PARTY’S BREACH OF ITS CONFIDENTIALITY OBLIGATIONS UNDER ARTICLE VII, NEITHER PARTY SHALL BE LIABLE TO THE OTHER PARTY FOR ANY INCIDENTAL, INDIRECT, SPECIAL, CONSEQUENTIAL OR PUNITIVE DAMAGES, REGARDLESS OF THE NATURE OF THE CLAIM, INCLUDING, WITHOUT LIMITATION, LOST PROFITS, COSTS OF DELAY, ANY FAILURE OF DELIVERY, BUSINESS INTERRUPTION, COSTS OF LOST OR DAMAGED DATA OR DOCUMENTATION OR LIABILITIES TO THIRD PARTIES ARISING FROM ANY SOURCE, EVEN IF SUCH PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. THIS LIMITATION UPON DAMAGES AND CLAIMS IS INTENDED TO APPLY WITHOUT REGARD TO WHETHER OTHER PROVISIONS OF THIS AGREEMENT HAVE BEEN BREACHED OR HAVE PROVEN INEFFECTIVE. \n\nEXCEPT WITH REGARD TO A PARTY’S INFRINGEMENT, VIOLATION OR MISAPPROPRIATION OF THE OTHER PARTY’S INTELLECTUAL PROPERTY RIGHTS, OR A PARTY’S BREACH OF ITS CONFIDENTIALITY OBLIGATIONS UNDER ARTICLE VII, THE CUMULATIVE LIABILITY OF EACH PARTY TO THE OTHER PARTY FOR ALL CLAIMS ARISING FROM OR RELATING TO THIS AGREEMENT, INCLUDING, WITHOUT LIMITATION, ANY CAUSE OF ACTION SOUNDING IN CONTRACT, TORT, OR STRICT LIABILITY, SHALL NOT EXCEED THE TOTAL AMOUNT OF FEES PAID OR PAYABLE TO LIVSEE BY CUSTOMER OR ITS AFFILIATES IN THE TWELVE (12) MONTHS IMMEDIATELY PRECEDING THE EVENT GIVING RISE TO THE LIABILITY (OR THE FIRST EVENT IN A SERIES OF EVENTS), UNDER THE ORDER FORM APPLICABLE TO THE PROPERTY AT WHICH SUCH LIABILITY AROSE. \n\nLIVSEE SHALL NOT HAVE ANY LIABILITY FOR CUSTOMER’S, AUTHORIZED USERS’, RESIDENTS’, OR ANY THIRD PARTY’S USE OF THE LICENSED APPLICATIONS, HOSTED SERVICES, OR DOCUMENTATION, IN VIOLATION OF THIS AGREEMENT. THIS LIMITATION OF LIABILITY IS INTENDED TO APPLY WITHOUT REGARD TO WHETHER OTHER PROVISIONS OF THIS AGREEMENT HAVE BEEN BREACHED OR HAVE PROVEN INEFFECTIVE.",
+        "sub_sub_sections": null
+      },
+      {
+        "type": "SubSection",
+        "title": "9.2 Essential Basis.",
+        "content": "The disclaimers, exclusions and limitations of liability set forth in these Terms form an essential basis of the bargain between the Parties, and, absent any of such disclaimers, exclusions or limitations of liability, the provisions of these Terms, including, without limitation, the economic terms, would be substantially different.",
+        "sub_sub_sections": null
+      }
+    ]
+  },
+  {
+    "type": "Section",
+    "title": "10. INDEMNIFICATION",
+    "content": null,
+    "sub_sections": [
+      {
+        "type": "SubSection",
+        "title": "10.1 Indemnification by Livsee.",
+        "content": "Livsee shall defend, indemnify, and hold Customer harmless against all costs and reasonable expenses (including reasonable attorneys’ fees), damages, and liabilities arising out of any claim by a third party (a) that any use of, or access to, the Hosted Service by Customer as expressly authorized under these Terms infringes or misappropriates, as applicable, any U.S. patent issued as of the Effective Date or any copyrights or trade secrets under applicable laws of any jurisdiction within the United States, or (b) due to bodily injury or death or damage to real or personal property resulting from Livsee’s gross negligence or willful misconduct; in each of (a) or (b), provided that Customer gives Livsee (i) prompt written notice of such claim; (ii) authority to control and direct the defense and/or settlement of such claim; and (iii) such information and assistance as Livsee may reasonably request, at Livsee’s expense, in connection with such defense and/or settlement. Livsee shall only be obligated to provide the foregoing indemnity so long as Customer has paid in full all accrued Fees under these Terms. Notwithstanding the foregoing, Livsee shall have no obligation or liability to the extent that the alleged infringement arises from (1) the combination, operation, or use of the Hosted Service with products, services, information, materials, technologies, business methods or processes not permitted by Livsee; (2) modifications to the Hosted Service, which modifications are not made by Livsee; (3) failure to use updates to the Hosted Service provided by Livsee; or (4) use of the Hosted Service except in accordance with any applicable user documentation or specifications (circumstances under the foregoing clauses (1), (2), (3) and (4), collectively, “Customer Indemnity Responsibilities”).",
+        "sub_sub_sections": [
+          {
+            "type": "SubSubSection",
+            "title": "10.1.1 Remedies for Infringement.",
+            "content": "Upon the occurrence of any claim for which indemnity is or may be due under this Section 10.1(a), or in the event that Livsee believes that such a claim is likely, Livsee may, at its option (i) appropriately modify the relevant portion of the Hosted Service so that it becomes non-infringing, or substitute functionally equivalent software or services; (ii) obtain a license to the applicable third party Intellectual Property Rights; or (iii) terminate these Terms on written notice to Customer and refund to Customer a portion of the Hosted Services fees pre-paid by Customer for access to the Hosted Service that Customer has not yet used. The obligations set forth in this Section 10.1.1 shall constitute Livsee’s entire liability and Customer’s sole remedy for any actual or alleged infringement or misappropriation."
+          }
+        ]
+      },
+      {
+        "type": "SubSection",
+        "title": "10.2 Indemnification by Customer.",
+        "content": "Customer shall indemnify, hold harmless, and, at Livsee’s option, defend Livsee from and against all losses, expenses (including reasonable attorneys’ fees), damages, and liabilities resulting from any claim by any third party arising from or in connection with any Customer Indemnity Responsibilities. Livsee agrees to give Customer (i) prompt written notice of such claim; (ii) authority to control and direct the defense and/or settlement of such claim; and (iii) such information and assistance as Customer may reasonably request, at Customer’s expense, in connection with such defense and/or settlement. Notwithstanding the foregoing, Customer shall not settle any third party claim against Livsee unless such settlement completely and forever releases Livsee with respect thereto or unless Livsee provides its prior written consent to such settlement. In any action for which Customer provides defense on behalf of Livsee, Livsee may participate in such defense at its own expense by counsel of its choice.",
+        "sub_sub_sections": null
+      }
+    ]
+  },
+  {
+    "type": "Section",
+    "title": "11. TERM AND TERMINATION",
+    "content": null,
+    "sub_sections": [
+      {
+        "type": "SubSection",
+        "title": "11.1 Term.",
+        "content": "These Terms shall become effective upon the Effective Date and shall remain in effect unless terminated in accordance with Section 11.2, or 11.3; provided, however, that these Terms shall remain in full force and effect until the expiration or termination of any and all Order Forms executed prior to the effective date of termination of these Terms. If there are no Order Forms in effect, either Party may immediately terminate these Terms upon notice to the other Party.",
+        "sub_sub_sections": null
+      },
+      {
+        "type": "SubSection",
+        "title": "11.2 Termination for Breach.",
+        "content": "Either Party may terminate these Terms immediately upon written notice in the event that the other Party materially breaches these Terms and thereafter (i) in the case of material breach resulting from non-payment of amounts due hereunder, has failed to pay such amounts within ten (10) days after receiving written notice thereof; or (ii) has failed to cure any other material breach (or to commence diligent efforts to cure such breach that are reasonably acceptable to the terminating Party) within thirty (30) days after receiving written notice thereof.",
+        "sub_sub_sections": null
+      },
+      {
+        "type": "SubSection",
+        "title": "11.3 Termination Upon Bankruptcy, Insolvency, Etc.",
+        "content": "Either Party may terminate these Terms immediately upon written notice after the other Party has executed an assignment for the benefit of creditors or filed for relief under any applicable bankruptcy, reorganization, moratorium, or similar debtor relief laws, or in the event that a receiver has been appointed for the other Party or any of its assets or properties, or an involuntary petition in bankruptcy has been filed against such other Party, which proceeding or petition has not been dismissed, vacated, or stayed within thirty (30) days.",
+        "sub_sub_sections": null
+      },
+      {
+        "type": "SubSection",
+        "title": "11.4 Termination Upon the Sale of a Property.",
+        "content": "Customer may terminate the individual Order Forms relevant to a specific Property due to sale of such Property without penalty or liability, so long as Customer provides Livsee with its notice of such intent to terminate within thirty (30) days following the sale of such Property.",
+        "sub_sub_sections": null
+      },
+      {
+        "type": "SubSection",
+        "title": "11.5 Termination of Order Form for Convenience.",
+        "content": "Customer may, upon no less than thirty (30) days’ prior written notice to Livsee, terminate an Order Form with respect to a specific Property for any reason or no reason. For clarity and the avoidance of doubt, in the event that Customer exercises the right to terminate an Order Form as set forth in this Section, Customer shall not be entitled to a refund of any Fees paid prior to the effective date of such termination for Hosted Services.",
+        "sub_sub_sections": null
+      },
+      {
+        "type": "SubSection",
+        "title": "11.6 Accrued Obligations.",
+        "content": "Termination of these Terms and/or an Order Form shall not release the Parties from any liability which, at the time of termination, has already accrued or which thereafter may accrue with respect to any act or omission before termination, or from any obligation which is expressly stated in these Terms to survive termination. Notwithstanding the foregoing, the Party terminating these Terms as permitted by any provision in this Section shall incur no additional liability merely by virtue of such termination.",
+        "sub_sub_sections": null
+      },
+      {
+        "type": "SubSection",
+        "title": "11.7 Cumulative Remedies.",
+        "content": "Termination of these Terms and an Order Form, in whole or in part, regardless of cause or nature, shall be without prejudice to any other rights or remedies of the Parties and shall be without liability for any loss or damage occasioned thereby. Except as otherwise expressly stated in these Terms, all remedies specified in these Terms are cumulative with any other remedies that may be available at law or in equity.",
+        "sub_sub_sections": null
+      },
+      {
+        "type": "SubSection",
+        "title": "11.8 Effect of Termination.",
+        "content": "Upon any termination of these Terms, each Party shall (i) immediately discontinue all use of the other Party’s Confidential Information; (ii) delete the other Party’s Confidential Information from its computer storage or any other media, including, but not limited to, online and off-line libraries; (iii) shall return to the other Party or, at the other Party’s option, destroy, all copies of such other Party’s Confidential Information then in its possession; and (iv) shall promptly pay all amounts due and remaining payable hereunder. In addition, upon any termination of these Terms, Customer will immediately discontinue all use of the Hosted Service. Customer agrees that following termination of these Terms, Livsee may immediately deactivate Customer’s account, and that following a reasonable period of not less than ninety (90) days, Livsee shall be entitled to delete Customer’s account from Livsee’s “live” site. During this ninety (90) day period and upon Customer’s request, Livsee will grant Customer limited access to the Hosted Services for several days for the sole purpose of permitting Customer to retrieve Customer’s data, provided that Customer has paid in full all good faith undisputed amounts owed to Livsee. Customer further agrees that Livsee shall not be liable to Customer nor to any third party for any termination of Customer access to the Hosted Services or deletion of Customer data, provided that Livsee is in compliance with the terms of this Section 11.8.",
+        "sub_sub_sections": null
+      },
+      {
+        "type": "SubSection",
+        "title": "11.9 Survival of Obligations.",
+        "content": "The provisions of ARTICLE I, ARTICLE V, ARTICLE VII, ARTICLE IX, and ARTICLE XII, Sections 2.3, 3.2, 6.1, 6.2, 10.1, 10.2, 11.4, 11.5 11.7, 11.8, 11.9, as well as Customer’s obligations to pay any amounts due and outstanding hereunder, shall survive any termination or expiration of these Terms.",
+        "sub_sub_sections": null
+      }
+    ]
+  },
+  {
+    "type": "Section",
+    "title": "12. MISCELLANEOUS",
+    "content": null,
+    "sub_sections": [
+      {
+        "type": "SubSection",
+        "title": "12.1 Applicable Law.",
+        "content": "THIS AGREEMENT AND THE RIGHTS AND OBLIGATIONS OF THE PARTIES HEREUNDER SHALL BE CONSTRUED IN ACCORDANCE WITH, AND SHALL BE GOVERNED BY, THE LAWS OF THE STATE OF MICHIGAN, WITHOUT GIVING EFFECT TO ITS RULES REGARDING CONFLICTS OF LAWS AND EXCLUDING THE UNIFORM COMPUTER INFORMATION TRANSACTIONS ACT (UCITA). CUSTOMER AGREES THAT ANY AND ALL CAUSES OF ACTION BETWEEN THE PARTIES ARISING FROM OR IN RELATION TO THIS AGREEMENT SHALL BE BROUGHT EXCLUSIVELY IN THE STATE AND FEDERAL COURTS LOCATED WITHIN NEW ANN ARBOR, MICHIGAN.",
+        "sub_sub_sections": null
+      },
+      {
+        "type": "SubSection",
+        "title": "12.2 Force Majeure.",
+        "content": "Livsee shall be excused from performance of its obligations under these Terms if such a failure to perform results from compliance with any requirement of applicable law, acts of god, fire, strike, embargo, terrorist attack, war, insurrection or riot or other causes beyond the reasonable control of Livsee. Any delay resulting from any of such causes shall extend performance accordingly or excuse performance, in whole or in part, as may be reasonable under the circumstances.",
+        "sub_sub_sections": null
+      },
+      {
+        "type": "SubSection",
+        "title": "12.3 Notices.",
+        "content": "All notices required by or relating to these Terms shall be in writing and shall be sent by means of certified mail, postage prepaid, to the Parties to these Terms and addressed, as set forth on the Order Form, or addressed to such other address as that Party may have given by written notice in accordance with this provision. All notices required by or relating to these Terms may also be communicated by facsimile or email, provided that the sender receives and retains confirmation of successful transmittal to the recipient. Such notices shall be effective on the date indicated in such confirmation. In the event that either Party delivers any notice hereunder by means of facsimile transmission or email in accordance with the preceding sentence, such Party will promptly thereafter send a duplicate of such notice in writing by means of certified mail, postage prepaid, to the receiving Party, addressed as set forth above or to such other address as the receiving Party may have previously substituted by written notice to the sender.",
+        "sub_sub_sections": null
+      },
+      {
+        "type": "SubSection",
+        "title": "12.4 Assignment.",
+        "content": "Customer shall not assign its rights or delegate its obligations under these Terms (or any Order Form), in whole or in part, without Livsee’s prior written consent, which shall not be unreasonably withheld or delayed, and, absent such consent, any purported assignment or delegation by Customer shall be null, void and of no effect. Upon the sale of a Property, Customer may assign its rights and delegate its obligations under any Order Form, with Livsee’s prior written consent, so long as the assignee of such Order Form enters into Livsee’s then-current form of master services agreement. Livsee may without notice assign all or part of any its interests under these Terms (or any Order Form). In such an event, all of Livsee’s rights, powers, and privileges contained herein so assigned shall inure to the benefit of and may be exercised by or on behalf of such assignee, but the assignee shall not be liable for or be required to perform any of Livsee’s obligations to Customer, such obligations being retained by Livsee. These Terms shall be binding upon and inure to the benefit of Livsee and Customer and their successors and permitted assigns.",
+        "sub_sub_sections": null
+      },
+      {
+        "type": "SubSection",
+        "title": "12.5 Independent Contractors.",
+        "content": "Customer and Livsee acknowledge and agree that the relationship arising from these Terms (including any Agreement and any Order Form) does not constitute or create any joint venture, partnership, employment relationship or franchise between them, and the Parties are acting as independent contractors in making and performing these Terms.",
+        "sub_sub_sections": null
+      },
+      {
+        "type": "SubSection",
+        "title": "12.6 Amendment.",
+        "content": "No amendment to these Terms shall be valid unless such amendment is made in writing and is signed by the authorized representatives of the Parties.",
+        "sub_sub_sections": null
+      },
+      {
+        "type": "SubSection",
+        "title": "12.7 Waiver.",
+        "content": "No waiver under these Terms shall be valid or binding unless set forth in writing and duly executed by the Party against whom enforcement of such waiver is sought. Any such waiver shall constitute a waiver only with respect to the specific matter described therein and shall in no way impair the rights of the Party granting such waiver in any other respect or at any other time. Any delay or forbearance by either Party in exercising any right hereunder shall not be deemed a waiver of that right.",
+        "sub_sub_sections": null
+      },
+      {
+        "type": "SubSection",
+        "title": "12.8 Severability.",
+        "content": "If any provision of these Terms is invalid or unenforceable for any reason in any jurisdiction, such provision shall be construed to have been adjusted to the minimum extent necessary to cure such invalidity or unenforceability. The invalidity or unenforceability of one or more of the provisions contained herein or therein shall not have the effect of rendering any such provision invalid or unenforceable in any other case, circumstance or jurisdiction, or of rendering any other provisions of these Terms, any Agreement or any Order Form invalid or unenforceable whatsoever.",
+        "sub_sub_sections": null
+      },
+      {
+        "type": "SubSection",
+        "title": "12.9 Causes of Action.",
+        "content": "No action arising from or related to these Terms may be brought by either Party more than one (1) year after the cause of action has accrued, except that an action for non-payment may be brought within two (2) years after the date such amount was due.",
+        "sub_sub_sections": null
+      },
+      {
+        "type": "SubSection",
+        "title": "12.10 Counterparts.",
+        "content": "These Terms may be executed in any number of counterparts, each of which when so executed shall be deemed to be an original and all of which when taken together shall constitute one Agreement.",
+        "sub_sub_sections": null
+      },
+      {
+        "type": "SubSection",
+        "title": "12.11 Headings.",
+        "content": "The headings in these Terms are inserted merely for the purpose of convenience and shall not affect the meaning or interpretation of these Terms.",
+        "sub_sub_sections": null
+      },
+      {
+        "type": "SubSection",
+        "title": "12.12 Entire Agreement.",
+        "content": "Notwithstanding anything contained in these Terms, these Terms sets forth the entire agreement and understanding between the Parties hereto with respect to the subject matter hereof and exclusively governs, supersedes and controls over all prior or subsequent oral and written agreements, discussions and understandings between the Parties, their Affiliates and representatives with respect to the subject matter hereof. It is agreed that the Parties’ rights and obligations with respect to the subject matter hereof may not be modified or amended except as specifically set forth in an amendment to these Terms executed by the Parties hereto in traditional written format, and neither of the Parties shall be bound by any conditions, inducements or representations other than as expressly provided for herein.",
+        "sub_sub_sections": null
+      }
+    ]
+  },
+  {
+    "type": "Section",
+    "title": "Exhibit A: DEFINITIONS",
+    "content": null,
+    "sub_sections": [
+      {
+        "type": "Definition",
+        "title": "Affiliate",
+        "content": "Any entity controlling, controlled by or under common control with Customer, where control and its corollaries (including “controlled by” and “under common control with”) means the possession, directly or indirectly, of the power to direct or cause the direction of the management and policies of such person or entity, whether through the ownership of voting securities or other ownership interests, by contract or otherwise, and any Property Manager designated by Customer as having the authority to enter into Order Forms on behalf of Customer."
+      },
+      {
+        "type": "Definition",
+        "title": "Authorized User",
+        "content": "Collectively, any individual employees, agents, contractors, of Customer or a Property accessing or using the Hosted Services under the rights granted to Customer pursuant to these Terms."
+      },
+      {
+        "type": "Definition",
+        "title": "Confidential Information",
+        "content": "Any material or information relating to a Party’s research, development, products, product plans, services, customers, customer lists, Resident information, markets, software, developments, inventions, processes, formulas, technologies, designs, drawings, marketing, finances, or other business information or trade secrets that such disclosing Party treats as proprietary or confidential."
+      },
+      {
+        "type": "Definition",
+        "title": "Documentation",
+        "content": "Livsee’s standard user manuals and/or related documentation generally made available to licensees of Hosted Services, if any."
+      },
+      {
+        "type": "Definition",
+        "title": "Error",
+        "content": "A failure of the Licensed Application to perform substantially in accordance with the applicable material functional specifications set forth in the Documentation, which failure is reproducible by Livsee when accessing Licensed Application (excluding faults in the Documentation itself)."
+      },
+      {
+        "type": "Definition",
+        "title": "Hosted Services",
+        "content": "Livsee’s proprietary or licensed technology and software solutions offered in hosted form, which Livsee provides to Customer and/or its Affiliates access to pursuant to an Order Form, including any data reports related to the Property. Hosted Services includes the Licensed Application and any Documentation."
+      },
+      {
+        "type": "Definition",
+        "title": "Initial Term",
+        "content": "The period of time indicated in the Order Form."
+      },
+      {
+        "type": "Definition",
+        "title": "Intellectual Property Rights",
+        "content": "All patent, copyright, trade secret, trademark, moral rights, mask work rights, and other intellectual property rights."
+      },
+      {
+        "type": "Definition",
+        "title": "Licensed Application",
+        "content": "Livsee’s proprietary software application(s) to which access is granted on a software-as-a-services basis, through which Customer receives the Hosted Services."
+      },
+      {
+        "type": "Definition",
+        "title": "Order Form",
+        "content": "An order form that is signed by both parties and references these Terms."
+      },
+      {
+        "type": "Definition",
+        "title": "Personal Information",
+        "content": "All data relating to one or more individual(s) that is personally identifying (i.e., data that identifies an individual or, in combination with any other information or data available to the relevant Party, can identify an individual)."
+      },
+      {
+        "type": "Definition",
+        "title": "Property",
+        "content": "Is the property owned or managed by Customer, where the Hosted Services ordered by a Customer will be accessed in accordance with the Order Form executed for each Property."
+      },
+      {
+        "type": "Definition",
+        "title": "Property Manager",
+        "content": "Means any entity that has been retained to perform and carry out property management services at a Property."
+      },
+      {
+        "type": "Definition",
+        "title": "Resident",
+        "content": "Means an individual or entity that has leased or rented one or more individual units within the Property."
+      },
+      {
+        "type": "Definition",
+        "title": "Resident Data",
+        "content": "Means the data, information and content provided by Customer to Livsee in connection with the Hosted Services for individual residences, including certain information about Residents, including name, address, email, and phone number. For the avoidance of doubt, Resident Data does not include any Aggregated Statistics, any data provided from a Resident directly to Livsee, or any Non-Resident Data (as defined in Section 9.3)."
+      },
+      {
+        "type": "Definition",
+        "title": "Term",
+        "content": "Means the period during which these Terms remains in force and effect in accordance with an Order Form"
+      }
+    ]
+  }
+]

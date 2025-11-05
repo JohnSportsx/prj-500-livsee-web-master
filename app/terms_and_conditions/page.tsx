@@ -1,6 +1,109 @@
 import CommonHeroBanner from "@/components/CommonHeroBanner";
+import termsData from "@/terms_and_conditions.json";
+import React from "react";
 
-export default function PrivacyPolicy() {
+// The types are correctly defined in your original component, but I'll redefine them here
+// for completeness and consistency within this response's code block.
+export interface SubSubSection {
+  type: "SubSubSection";
+  title: string;
+  content: string;
+}
+
+export interface SubSectionData {
+  type: "SubSection" | "Definition";
+  title: string;
+  content: string | null;
+  sub_sub_sections: SubSubSection[] | null;
+}
+
+export interface DocumentSection {
+  type: "Section";
+  title: string;
+  content: string | null;
+  sub_sections: SubSectionData[];
+}
+
+// Assert the shape of the imported data
+const terms: DocumentSection[] = termsData as DocumentSection[];
+
+/**
+ * Helper component to render content, preserving line breaks for paragraphs (e.g., in disclaimers).
+ */
+const ContentRenderer = ({ content }: { content: string | null }) => {
+  if (!content) return null;
+
+  // Split content by newline characters and map each part to a paragraph or div
+  const paragraphs = content.split('\n').map((text, index) => (
+    // Use a <p> tag for general content, which provides better semantic structure
+    <p key={index} className="mb-[10px] last:mb-0 text-justify">
+      {text}
+    </p>
+  ));
+
+  return <>{paragraphs}</>;
+};
+
+
+export default function TermsAndConditions() {
+  // --- Component Definitions ---
+
+  const Section = ({
+    title,
+    children,
+  }: {
+    title: string;
+    children: React.ReactNode;
+  }) => (
+    <div className="mb-[40px]">
+      <h2 className="text-[20px] md:text-[28px] 2xl:text-[32px] font-bold mb-[20px]">
+        {title}
+      </h2>
+      {children}
+    </div>
+  );
+
+  const SubSection = ({
+    title,
+    content,
+    children, // Added children to allow rendering nested elements (SubSubSections)
+  }: {
+    title: string;
+    content: string | null; // Now accepts string or null
+    children: React.ReactNode;
+  }) => (
+    <div className="mb-[20px]">
+      <h3 className="text-[18px] md:text-[22px] 2xl:text-[24px] font-semibold mb-[15px]">
+        {title}
+      </h3>
+      <div className="text-[16px] md:text-[18px] 2xl:text-[20px] leading-[1.4]">
+        {/* Render content first, if present */}
+        <ContentRenderer content={content} />
+        {/* Render nested children (SubSubSections) if present */}
+        {children}
+      </div>
+    </div>
+  );
+
+  const SubSubSection = ({
+    title,
+    content,
+  }: {
+    title: string;
+    content: string;
+  }) => (
+    <div className="mb-[15px] pl-5"> {/* Added left padding for visual nesting */}
+      <h4 className="text-[16px] md:text-[20px] 2xl:text-[22px] font-medium mb-[12px]">
+        {title}
+      </h4>
+      <div className="text-[14px] md:text-[16px] 2xl:text-[18px] leading-[1.4]">
+        <ContentRenderer content={content} />
+      </div>
+    </div>
+  );
+
+  // --- Main Render Function ---
+
   return (
     <>
       <CommonHeroBanner
@@ -18,51 +121,36 @@ export default function PrivacyPolicy() {
               <p className="text-[16px] md:text-[18px] 2xl:text-[20px] leading-[1.4] mb-[20px]">
                 Last Updated: March 24, 2025
               </p>
-              <p className="text-[16px] md:text-[18px] 2xl:text-[20px] leading-[1.4] mb-[20px]">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Praesent a nisi vel lacus pellentesque pharetra. Curabitur
-                porta, elit quis aliquet laoreet, felis mi convallis orci, ut
-                ultricies massa enim id felis. Duis tincidunt felis a venenatis
-                ultricies. Maecenas lobortis dapibus quam vitae convallis. In
-                accumsan nibh et tellus volutpat ornare. Fusce congue ut libero
-                commodo imperdiet. Suspendisse consequat lorem sed eros egestas,
-                vel varius ante facilisis.
-              </p>
-              <p className="text-[16px] md:text-[18px] 2xl:text-[20px] leading-[1.4] mb-[20px]">
-                Etiam accumsan est metus, vitae dignissim ligula fermentum a.
-                Aenean massa nisl, feugiat vitae ex a, iaculis malesuada lacus.
-                Fusce efficitur, augue nec molestie convallis, justo sapien
-                vestibulum ante, ac eleifend enim elit maximus lacus. Donec
-                ligula nunc, efficitur vitae rhoncus vel, eleifend dignissim
-                ipsum. Vestibulum sagittis vel arcu vitae bibendum. Donec sit
-                amet vehicula enim. Sed lorem odio, sagittis et mauris in,
-                imperdiet auctor lorem. In hac habitasse platea dictumst. Proin
-                rutrum quis velit et vehicula. Vestibulum sagittis imperdiet
-                magna sed egestas. Integer vestibulum semper eros, vel ultrices
-                nibh suscipit vitae. Sed rutrum nisl velit, id congue risus
-                fringilla non. Sed in libero sagittis, malesuada nibh ut,
-                sodales urna. Aenean malesuada mollis auctor. Fusce eget rutrum
-                mauris. Duis hendrerit euismod varius.
-              </p>
-              <p className="text-[16px] md:text-[18px] 2xl:text-[20px] leading-[1.4] mb-[20px]">
-                Etiam a ante efficitur, sodales massa sed, hendrerit elit.
-                Pellentesque sed viverra nunc. Vivamus vel convallis massa, vel
-                luctus enim. Vestibulum faucibus ut ex in condimentum. Donec
-                elit augue, aliquet in sem vitae, suscipit facilisis ligula.
-                Phasellus tincidunt finibus urna non ultrices. Aliquam tincidunt
-                elementum risus.
-              </p>
-              <p className="text-[16px] md:text-[18px] 2xl:text-[20px] leading-[1.4] mb-[20px]">
-                Praesent erat nisl, luctus sed gravida ac, iaculis et sem. Etiam
-                id enim urna. In et feugiat libero. Praesent blandit eros at
-                lorem imperdiet feugiat. Quisque vel nulla ac velit mattis
-                fermentum id non tellus. Morbi blandit ligula elit, sit amet
-                pharetra odio venenatis eu. Cras vel egestas eros. Nullam ex
-                tellus, imperdiet malesuada tristique in, condimentum in nibh.
-                Maecenas rutrum a nunc sed scelerisque. Duis porttitor ipsum vel
-                dapibus condimentum. Aliquam dignissim sem pretium nisl maximus,
-                ac aliquam dui volutpat.
-              </p>
+              <div>
+                {/* Map through the main Section array */}
+                {terms.map((section, sectionIndex) => (
+                  <Section key={sectionIndex} title={section.title}>
+                    {/* Map through the SubSection array inside the Section */}
+                    {section.sub_sections &&
+                      section.sub_sections.map(
+                        (subSection, subSectionIndex) => (
+                          <SubSection
+                            key={subSectionIndex}
+                            title={subSection.title}
+                            content={subSection.content}
+                          >
+                            {/* If sub_sub_sections exist, render them as children */}
+                            {subSection.sub_sub_sections &&
+                              subSection.sub_sub_sections.map(
+                                (subSubSection, subSubSectionIndex) => (
+                                  <SubSubSection
+                                    key={subSubSectionIndex}
+                                    title={subSubSection.title}
+                                    content={subSubSection.content}
+                                  />
+                                )
+                              )}
+                          </SubSection>
+                        )
+                      )}
+                  </Section>
+                ))}
+              </div>
             </div>
           </div>
         </div>

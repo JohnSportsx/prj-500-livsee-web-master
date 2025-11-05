@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import LivSeeLogoMarkRGB from "@/public/images/logo/Livsee-Logomark-RGB_champagne.svg";
-import { BLOG_URL, NEWS_URL } from "@/utils";
+import { BLOG_URL, LOGIN_URL, NEWS_URL } from "@/utils";
 
 interface NavItem {
   label: string;
@@ -18,8 +18,8 @@ const NAV: NavItem[] = [
   { label: "FAQ", href: "/faq" },
   { label: "Connect", href: "/connect" },
   { label: "Support", href: "/support" },
-  {label: "News", href: NEWS_URL},
-  {label: "Blog", href: BLOG_URL},
+  { label: "News", href: NEWS_URL },
+  { label: "Blog", href: BLOG_URL },
   { label: "Contact", href: "/contact" },
 ];
 
@@ -82,24 +82,24 @@ export default function Header() {
             </nav>
 
             <div className="flex items-center gap-2">
-              <a
-                href="#demo"
+              <Link
+                href={"book_demo"}
                 className="rounded-full border-2 border-(--Live-see-btn) text-(--Live-see-btn) font-semibold
                   text-[16px] md:text-[16px] 2xl:text-[20px] px-5 md:px-6 2xl:px-[27px] py-[8.5px] md:py-[9.5px] 2xl:py-[10.5px]
                   hover:border-(--Live-see-btn-hover) hover:text-(--Live-see-btn-hover) hover:bg-transparent
                   transition-colors duration-300"
               >
                 Book a Demo
-              </a>
-              <a
-                href="#login"
+              </Link>
+              <Link
+                href={LOGIN_URL}
                 className="rounded-full border-2 border-(--Live-see-btn) text-(--Live-see-btn) font-semibold
                   text-[16px] md:text-[16px] 2xl:text-[20px] px-5 md:px-6 2xl:px-[27px] py-[8.5px] md:py-[9.5px] 2xl:py-[10.5px]
                   hover:border-(--Live-see-btn-hover) hover:text-(--Live-see-btn-hover) hover:bg-transparent
                   transition-colors duration-300"
               >
                 Login
-              </a>
+              </Link>
             </div>
           </div>
 
@@ -164,18 +164,20 @@ export default function Header() {
                 </Link>
               );
             })}
-            <a
-              href="#demo"
+            <Link
+              onClick={() => setOpen(false)}
+              href={"book_demo"}
               className="block px-4 py-4 text-[16px] text-(--Livsee-champagne) hover:bg-white/5"
             >
               Book a Demo
-            </a>
-            <a
-              href="#login"
+            </Link>
+            <Link
+              onClick={() => setOpen(false)}
+              href={LOGIN_URL}
               className="block px-4 py-4 text-[16px] text-(--Livsee-champagne) hover:bg-white/5"
             >
               Login
-            </a>
+            </Link>
           </nav>
         </div>
       )}

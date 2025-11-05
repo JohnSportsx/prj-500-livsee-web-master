@@ -28,7 +28,7 @@ export default function HeroBanner({ title, subtitle }: HeroBannerProps) {
         <div className="grid grid-cols-1 md:grid-cols-1">
           {/* Text content */}
           <div className="pt-[148px] md:pt-[180px] xl:pt-[190px] 2xl:pt-[200px]">
-            <h1 className="font-dm-serif leading-[1.2] font-500 text-[40px] md:text-[54px] 2xl:text-[64px]">
+            <h1 className="font-dm-serif leading-[1.2] font-500 text-xl md:text-[54px] 2xl:text-[64px]">
               {title}
             </h1>
             <div className="mt-[15px] md:mt-[20px] h-1 w-[50px] bg-[var(--Livse-peach)]" /></div>

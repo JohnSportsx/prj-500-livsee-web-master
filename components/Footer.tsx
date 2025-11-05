@@ -66,7 +66,7 @@ export default function Footer() {
                 </Link>
 
                 <Link
-                  href="#"
+                  href={`mailto:${COMPANY_EMAIL}`}
                   className="group inline-flex h-11 w-11 items-center justify-center rounded-full border-2 border-(--Livsee-champagne) transition-all duration-300 hover:bg-transparent hover:border-white"
                   aria-label="Mail"
                 >

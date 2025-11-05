@@ -1,0 +1,444 @@
+[
+  {
+    "type": "Section",
+    "title": "1. GENERAL",
+    "content": "We know that your privacy is important to you, and we work hard to earn and keep your trust. Livsee, Inc. (collectively with its subsidiaries and affiliates, “Company,” “we,” “us,” and “our”), respects your privacy and is committed to protecting your privacy through our compliance with this Privacy Policy (the “Policy”). The words “you” and “your” refer to you as a user of the Platform (defined below), either as a visitor, registered customer, or employee of a Company customer (defined below).\n\nThis Policy applies to information we collect on the Platform or in emails and other electronic messages between you and the Platform, and information gathered when you interact with our advertising on third-party websites if such advertisements include links to this Policy.\n\nThis Policy does not apply to information collected by us offline or through any other means, including on any other website operated by any third party, or information collected by any third party through any application or content (including advertising) that may link to or be accessible from the Platform (for further information, see below, “Third-party Websites”).\n\nPlease read this Policy carefully to understand our practices regarding your information and how we will treat it. If you do not agree with our policies and practices, then please do not use the Platform. By using the Platform, you agree to the terms of this Policy. This Policy may change from time to time (see below, “Changes to this Policy”). Your continued use of the Platform after we make changes is deemed to be acceptance of those changes, so please check the Policy periodically for updates.",
+    "sub_sections": [
+      {
+        "type": "SubSection",
+        "title": "This Policy describes:",
+        "content": null,
+        "list_items": [
+          "The types of information we collect from you or that you may provide when you visit our website(s) available at: https://www.livsee.com our Livsee property portal; as well as any other websites directly owned by the Company where this Policy is linked (collectively, our “Website”).",
+          "The types of information we collect from you or that you may provide when you complete contact forms or other free text boxes on the websites of Properties where we provide our services and where this Policy is linked or incorporated (collectively, the “Property Forms”, and together with the Website, the “Platform”).",
+          "Our practices for collecting, using, maintaining, protecting, and disclosing that information."
+        ],
+        "sub_sub_sections": null
+      }
+    ]
+  },
+  {
+    "type": "Section",
+    "title": "2. TERMS AND CONDITIONS",
+    "content": null,
+    "sub_sections": [
+      {
+        "type": "SubSection",
+        "title": "Incorporation by Reference",
+        "content": "This Policy is incorporated by reference and should be read in conjunction with the Company Terms and Conditions.",
+        "list_items": null,
+        "media_url": null,
+        "media_alt_text": null,
+        "sub_sub_sections": null
+      }
+    ]
+  },
+  {
+    "type": "Section",
+    "title": "3. THE INFORMATION WE COLLECT",
+    "content": "Personal Information. To ensure that we provide you with the best possible experience, we will store, use, and disclose personal information about you in accordance with this Policy. Personal information is information that identifies, relates to, describes, references, is reasonably capable of being associated with, or could reasonably be linked, directly or indirectly, with a particular user, household or device (“Personal Information”). The Personal Information that we may receive and collect depends on what you do when you visit the Platform.",
+    "sub_sections": [
+      {
+        "type": "SubSection",
+        "title": "Information of Other Individuals.",
+        "content": "You may have the opportunity to provide information of other individuals. When providing such information, you are solely responsible for obtaining the necessary consents and authorizations from any individuals in accordance with applicable data security laws and regulations, and the Company shall not be responsible or held liable for your failure to obtain the necessary consents.",
+        "list_items": null,
+        "media_url": null,
+        "media_alt_text": null,
+        "sub_sub_sections": null
+      },
+      {
+        "type": "SubSection",
+        "title": "Aggregated and De-Identified Data.",
+        "content": "We may also collect, use and disclose aggregated and de-identified data such as statistical or demographic data for any purpose. Aggregated and de-Identified data could be derived from your Personal Information but is not considered Personal Information under applicable law as this data will not directly or indirectly reveal your identity. However, if we combine or connect aggregated or de-identified data with your Personal Information so that it can directly or indirectly identify you, we treat the combined data as Personal Information which will be used in accordance with this Policy.",
+        "list_items": null,
+        "media_url": null,
+        "media_alt_text": null,
+        "sub_sub_sections": null
+      },
+      {
+        "type": "SubSection",
+        "title": "Free-Text Boxes.",
+        "content": "The information that you provide in each case will vary. In some cases, you may be able to provide Personal Information via email or free text boxes, such as contacting the Company to request further information. When providing your Personal Information, please provide only relevant information and do not provide unnecessary sensitive information, such as Social Security numbers, credit card information or other sensitive personal data, unless required for our services.",
+        "list_items": null,
+        "media_url": null,
+        "media_alt_text": null,
+        "sub_sub_sections": null
+      },
+      {
+        "type": "SubSection",
+        "title": "Username and Password; Other Sources.",
+        "content": "We may ask you to create a username and password that should only be known to you. When you provide this information to us, you are no longer anonymous. Additionally, we may receive information about you from other sources and add it to the information you have provided to us.",
+        "list_items": null,
+        "media_url": null,
+        "media_alt_text": null,
+        "sub_sub_sections": null
+      },
+      {
+        "type": "SubSection",
+        "title": "Recording Use of the Platform.",
+        "content": "We may partner with trusted third-party vendors to analyze performance and traffic of the Platform. This may include things like buttons you click, mouse movements and other behavior on the Platform, date and time of access, pages visited, web beacons, and cookie or pixel tag information. Please see our Automatic Information Collection section below to learn more about cookies, pixels tags, and analytic technologies.",
+        "list_items": null,
+        "media_url": null,
+        "media_alt_text": null,
+        "sub_sub_sections": null
+      },
+      {
+        "type": "SubSection",
+        "title": "<u>(a)Information We May Collect on the Platform</u>",
+        "content": "You may have the opportunity to provide Personal Information on the Platform, including but not limited to:",
+        "list_items": null,
+        "media_url": "https://static.wixstatic.com/media/81222c_5cbfca6eab524360a33967b5b4996418~mv2.png/v1/crop/x_0,y_1,w_643,h_786/fill/w_643,h_786,fp_0.50_0.50,q_90,enc_avif,quality_auto/Livsee%20privacy%20policy.png",
+        "media_alt_text": "",
+        "sub_sub_sections": [
+          {
+            "type": "SubSubSection",
+            "title": "Sources of Information",
+            "content": "We may obtain the Personal Information listed above from the following categories of sources:",
+            "list_items": [
+              "Directly from you. For example, when you:",
+              "  - register yourself with the Platform;",
+              "  - complete online forms, including Property Forms;",
+              "  - subscribe to one of our e-newsletters; or",
+              "  - otherwise communicate with us, such as contacting us for more information.",
+              "Indirectly from you. For example, through information we collect from you in the course of providing our services to you.",
+              "Directly and indirectly from activity on the Platform. For example, from Website usage details that are collected automatically. For more information on automatic information collection, please review the “Automated Information Collection” section below."
+            ],
+            "media_url": null,
+            "media_alt_text": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "Section",
+    "title": "4. AUTOMATED INFORMATION COLLECTION",
+    "content": "In addition to the information that you provide to us, we may also collect information about you during your visit to the Platform. We collect this information using automated tools that are detailed below. These tools may collect information about your behavior and your computer system, such as your internet address (IP Address), the pages you have viewed, and the actions you have taken while using the Platform. Some of the tools we use to automatically collect information about you may include:",
+    "sub_sections": [
+      {
+        "type": "SubSection",
+        "title": "<u>(a)Cookies.</u>",
+        "content": "A “cookie” is a small data file transmitted from a website to your device’s hard drive. Cookies are usually defined in one of two ways, and we may use either (or both) of them:\n\n* session cookies, which do not stay on your device after you close your browser, and\n* persistent cookies, which remain on your device until you delete them or they expire.\n\nWe may use the following categories of cookies on the Platform:",
+        "list_items": null,
+        "media_url": null,
+        "media_alt_text": null,
+        "sub_sub_sections": [
+          {
+            "type": "SubSubSection",
+            "title": "1. Strictly Necessary Cookies.",
+            "content": "These cookies are essential in order to enable you to move around the Platform and use its features. Without these cookies, services you have requested cannot be provided.",
+            "media_url": null,
+            "media_alt_text": null
+          },
+          {
+            "type": "SubSubSection",
+            "title": "2. Performance Cookies.",
+            "content": "These cookies collect anonymous information on how you use the Platform to help us understand how you arrive at the Platform, browse or use the Platform and highlight areas where we can improve, such as navigation. The data stored by these cookies never shows personal details from which your individual identity can be established.",
+            "media_url": null,
+            "media_alt_text": null
+          },
+          {
+            "type": "SubSubSection",
+            "title": "3. Functionality Cookies.",
+            "content": "These cookies remember choices you make such as the country from which you visit the Platform, your preferred language, and your search parameters. This information can then be used to provide you with an experience more appropriate to your selections and to make your visits to the Platform more tailored to your preferences. The information in these cookies may be anonymized. These cookies cannot track your browsing activity on other websites.",
+            "media_url": null,
+            "media_alt_text": null
+          },
+          {
+            "type": "SubSubSection",
+            "title": "4. Targeting Cookies or Advertising Cookies.",
+            "content": "These cookies collect information about your browsing habits in order to make advertising more relevant to you and your interests. They are also used to limit the number of times you see an advertisement as well as help measure the effectiveness of an advertising campaign. The cookies are usually placed by third-party advertising networks. These cookies remember the websites you visit and that information is shared with other parties, such as advertisers.",
+            "media_url": null,
+            "media_alt_text": null
+          }
+        ]
+      },
+      {
+        "type": "SubSection",
+        "title": "",
+        "content": "Of course, if you do not wish to have cookies on your devices, you may turn them off at any time by modifying your internet browser’s settings. However, by disabling cookies on your device, you may be prohibited from full use of the Platform’s features or lose access to some functionality.",
+        "list_items": null,
+        "media_url": null,
+        "media_alt_text": null,
+        "sub_sub_sections": null
+      },
+      {
+        "type": "SubSection",
+        "title": "<u>(b) Google Analytics.</u>",
+        "content": "The Website sends aggregated non-Personal Information to Google Analytics for the purpose of providing us with the ability to conduct technical and statistical analysis on the Platform’s performance. For more information on how Google Analytics supports the Platform and uses information sent from the Platform, please review Google’s privacy policy available at https://policies.google.com/technologies/partner-sites",
+        "list_items": null,
+        "media_url": null,
+        "media_alt_text": null,
+        "sub_sub_sections": null
+      },
+      {
+        "type": "SubSection",
+        "title": "<u>(c) Web Beacons.</u>",
+        "content": "A Web Beacon is an electronic image. Web Beacons can track certain things from your computer and can report activity back to a web server allowing us to understand some of your behavior. If you choose to receive emails from us, we may use Web Beacons to track your reaction to our emails. We may also use them to track if you click on the links and at what time and date you do so. Some of the third-party marketers we engage with may use Web Beacons to track your interaction with online advertising banners on the Platform. This information is only collected in aggregate form and will not be linked to your Personal Information. Please note that any image file on a webpage can act as a Web Beacon.",
+        "list_items": null,
+        "media_url": null,
+        "media_alt_text": null,
+        "sub_sub_sections": null
+      },
+      {
+        "type": "SubSection",
+        "title": "<u>(d) Embedded Web Links.</u>",
+        "content": "Links provided in our emails and, in some cases, on third-party websites may include tracking technology embedded in the link. The tracking is accomplished through a redirection system. The redirection system allows us to understand how the link is being used by email recipients. Some of these links will enable us to identify that you have personally clicked on the link and this may be attached to the Personal Information that we hold about you. This data is used to improve our service to you and to help us understand the performance of our marketing campaigns.",
+        "list_items": null,
+        "media_url": null,
+        "media_alt_text": null,
+        "sub_sub_sections": null
+      },
+      {
+        "type": "SubSection",
+        "title": "<u>(e) Third-party Websites and Services.</u>",
+        "content": "We work with a number of service providers of marketing communications technology. These service providers may use various data collection methods to improve the performance of the marketing campaigns we are contracting them to provide. The information collected can be gathered on the Platform and also on the websites where our marketing communications are appearing. For example, we may collect data where our banner advertisements are displayed on third-party websites.",
+        "list_items": null,
+        "media_url": null,
+        "media_alt_text": null,
+        "sub_sub_sections": null
+      }
+    ]
+  },
+  {
+    "type": "Section",
+    "title": "5. HOW WE USE YOUR INFORMATION",
+    "content": "The information we gather and that you provide is collected to provide you information and the services you request, in addition to various other purposes, including, but not limited to:",
+    "sub_sections": [
+      {
+        "type": "SubSection",
+        "title": "Purposes of Use",
+        "content": null,
+        "list_items": [
+          "security, credit or fraud prevention purposes;",
+          "providing you with effective customer service;",
+          "providing you with a personalized experience when you use the Platform;",
+          "developing new products and services;",
+          "contacting you with special offers and other information we believe will be of interest to you (in accordance with any privacy preferences you have expressed to us);",
+          "contacting you with information and notices related to your use of the Platform;",
+          "inviting you to participate in surveys and providing feedback to us (in accordance with any privacy preferences you have expressed to us);",
+          "better understanding your needs and interests;",
+          "improving the content, functionality and usability of the Platform;",
+          "improving our products and services;",
+          "improving our marketing and promotional efforts; and",
+          "any other purpose identified at the point of data collection, in an applicable privacy notice, in a click-through agreement or in any other agreement between you and us."
+        ],
+        "media_url": null,
+        "media_alt_text": null,
+        "sub_sub_sections": null
+      },
+      {
+        "type": "SubSection",
+        "title": "<u>Duration.</u>",
+        "content": "The length of time Company intends to retain Personal Information, including sensitive personal information, if any, is for as long as reasonably necessary to carry out Company’s intended business purpose for such information.",
+        "list_items": null,
+        "media_url": null,
+        "media_alt_text": null,
+        "sub_sub_sections": null
+      }
+    ]
+  },
+  {
+    "type": "Section",
+    "title": "6. HOW WE DISCLOSE YOUR INFORMATION",
+    "content": "We do not sell or lease your Personal Information to any third party. We may disclose your Personal Information to a third party for a business purpose, including the following categories of third parties:",
+    "sub_sections": [
+      {
+        "type": "SubSection",
+        "title": "Disclosure Categories (Business Purpose)",
+        "content": null,
+        "list_items": [
+          "Our Affiliates. We may disclose the information collected through the Platform with our affiliates, subsidiaries, or other related entities in order to provide our products, services and effective customer support.",
+          "Your Employer. You may be provided access to the Platform through your organization or your employer. We may disclose your information with your organization or employer, such as, but not limited to, when managing all active accounts under the organization’s or employer’s subscription with us. We are not responsible or liable for any uses of your information or your content by your organization or employer.",
+          "Applicants of Properties. As a user who is looking at apartments and other properties (“Property” or “Properties”), we may disclose the information that you provide to us with the landlord or real estate broker that owns the Property that you are interested in.",
+          "Third-party Service Providers. We disclose Personal Information collected through the Platform with third-party Service Providers who act for or on behalf of the Company. These third parties may need information about you to perform their functions. “Service Providers” may include suppliers, dealers, distributors, companies and consultants that provide website hosting, software development, payment processing, website and data analytics, order fulfillment, information technology and related infrastructure support, customer service, email delivery, and auditing.",
+          "In Aggregate or De-Identified Form. We may aggregate or otherwise anonymize the data we collect for purposes of analytics, research, marketing and other business interests of the Company. Such use shall not include Personal Information or information that can identify you as an individual or reasonably be used to identify you."
+        ],
+        "media_url": null,
+        "media_alt_text": null,
+        "sub_sub_sections": null
+      },
+      {
+        "type": "SubSection",
+        "title": "Legal Reasons",
+        "content": "Except as described in this Policy, we will not disclose your information with third parties without your notice and consent, unless it is under one of the following circumstances:",
+        "list_items": [
+          "We believe that disclosure is reasonably necessary to comply with any applicable law, regulation, subpoena, or court order;",
+          "To respond to duly authorized information requests from law enforcement or other governmental authorities;",
+          "To enforce our agreements or policies;",
+          "To investigate and prevent security threats, fraud, or other malicious activity; or",
+          "To respond to an emergency that we believe in good faith requires us to disclose such information to assist in preventing the death or serious bodily injury of any person or Company employee."
+        ],
+        "media_url": null,
+        "media_alt_text": null,
+        "sub_sub_sections": null
+      },
+      {
+        "type": "SubSection",
+        "title": "Sale of Business or Merger.",
+        "content": "There are circumstances where the Company may decide to buy, sell, or reorganize its business. Under these circumstances, it may be necessary to disclose or receive Personal Information with prospective or actual purchasers, acquisition targets, partners or affiliates. In such circumstances, the Company will ensure your information is used in accordance with this Policy.",
+        "list_items": null,
+        "media_url": null,
+        "media_alt_text": null,
+        "sub_sub_sections": null
+      }
+    ]
+  },
+  {
+    "type": "Section",
+    "title": "7. YOUR CHOICES AND SELECTING YOUR PRIVACY PREFERENCES",
+    "content": "We want to provide you with relevant information that you have requested. When possible, we will always provide options as to what information we collect and how you can manage any preferences that pertains to such information.",
+    "sub_sections": [
+      {
+        "type": "SubSection",
+        "title": "Subscription and Transactional Messages",
+        "content": "If we provide subscription-based services, such as email newsletters, we will allow you to make choices about what information you provide at the point of information collection or at any time after you have received a communication from us while you are subscribed. Transactional or service-oriented messages, such as delivery confirmation messages, are usually excluded from such preferences, as such messages are required to respond to your requests or to provide goods and services, and are not intended for the purposes of marketing.",
+        "list_items": null,
+        "media_url": null,
+        "media_alt_text": null,
+        "sub_sub_sections": null
+      },
+      {
+        "type": "SubSection",
+        "title": "Email Newsletters and Marketing Opt-Out",
+        "content": "From time to time, we may send you email newsletters and marketing emails. You may opt out of them at any time by selecting the “unsubscribe” link at the bottom of each email. Please note that by opting out or unsubscribing you may affect other services you have requested we provide to you, in which email communication is a requirement of the service provided. Even if you opt-out of receiving marketing material, we may still need to contact you with important information about your account or responding to your requests or questions.",
+        "list_items": null,
+        "media_url": null,
+        "media_alt_text": null,
+        "sub_sub_sections": null
+      }
+    ]
+  },
+  {
+    "type": "Section",
+    "title": "8. TEXT MESSAGING",
+    "content": null,
+    "sub_sections": [
+      {
+        "type": "SubSection",
+        "title": "Consent and Terms for Text Communications",
+        "content": "You may have the opportunity to receive SMS or \"text\" messages, pre-recorded voice messages or auto-dialed phone calls from the Company, its affiliates and related entities as well as third parties. Such messaging may be used to authenticate your identity or mobile device, as well as provide you informational updates about services or products you may have requested. In providing your mobile device number or cell phone number to the Company, you knowingly consent to such communications from the Company or for the Company to use your cell phone number or mobile device number. In providing your number, you represent that you have the authority to agree to receive text messages at the telephone number that you provide to the Company, or from which you sent the text message request to us. You further acknowledge that: (a) no purchase is required to opt into this service; (b) you may opt out at any time by following the instructions provided in our communications to you; and (c) your receipt of text messages may result in separate charges from your mobile provider.\n\nAny such communications you receive from us will be administered in accordance with your preferences and this Policy.",
+        "list_items": null,
+        "media_url": null,
+        "media_alt_text": null,
+        "sub_sub_sections": null
+      }
+    ]
+  },
+  {
+    "type": "Section",
+    "title": "9. ACCURACY AND ACCESS TO YOUR PERSONAL INFORMATION",
+    "content": "We strive to maintain and process your information accurately. We have processes in place to maintain all of our information in accordance with relevant data governance frameworks and legal requirements. We employ technologies designed to help us maintain information accuracy on input and processing.",
+    "sub_sections": [
+      {
+        "type": "SubSection",
+        "title": "Accessing and Protecting Your Information",
+        "content": "Where we can provide you access to your Personal Information in our possession, we will always ask you for a username and password to help protect your privacy and security. We recommend that you keep your password safe, that you change it periodically, and that you do not disclose it to any other person or allow any other person to use it.",
+        "list_items": null,
+        "media_url": null,
+        "media_alt_text": null,
+        "sub_sub_sections": null
+      },
+      {
+        "type": "SubSection",
+        "title": "Viewing and Changing Personal Information",
+        "content": "To view and change the Personal Information that you have provided to us, you can log in to your account and follow the instructions on that webpage, or contact us directly for assistance.",
+        "list_items": null,
+        "media_url": null,
+        "media_alt_text": null,
+        "sub_sub_sections": null
+      }
+    ]
+  },
+  {
+    "type": "Section",
+    "title": "10. INFORMATION OF MINORS",
+    "content": "We do not knowingly collect or use information from individuals under the age of thirteen (13) without parental or guardian consent. We do not target the Platform to minors, and would not expect them to be engaging with the Platform or our services. We encourage parents and guardians to provide adequate protection measures to prevent minors from providing information unwillingly on the internet. If we are aware of any Personal Information that we have collected about minors, we will take steps to securely remove it from our systems.",
+    "sub_sections": null
+  },
+  {
+    "type": "Section",
+    "title": "11. FEEDBACK",
+    "content": "We welcome inquiries or feedback on the services or products you might use or like to use. Any inquiries, feedback, suggestions, or ideas you provide to us (collectively, “Feedback”) will be treated as non-proprietary and non-confidential. Your Feedback on or through the Platform may be available to others who visit the Platform. In addition, we may use your Feedback in advertising campaigns and other promotions. We may or may not use your name in connection with such use, and we may or may not seek your consent before using the Feedback for such purposes. Therefore, you should have no expectation of privacy with respect to your Feedback on or through the Platform. You should not submit any content you do not wish to make available to the general public, and you must take special care to make sure your Feedback comply with our Terms of Use or other applicable agreements. All terms and conditions of our Terms of Use apply to Feedback on or through the Platform. In particular, your Feedback must not violate the privacy or other rights of others. You may not use false identifying information or contact information, impersonate any person or entity, or otherwise mislead us as to the origin of any Feedback.",
+    "sub_sections": null
+  },
+  {
+    "type": "Section",
+    "title": "12. THIRD-PARTY WEBSITES",
+    "content": "This Policy does not apply to websites or other domains that are maintained or operated by third parties or our affiliates. Our Website may link to third-party websites and services. For example, if you click on an advertisement on the Platform, you may be taken to another website that we do not control. These links are not endorsements of these websites, and this Policy does not extend to them. Because this Policy is not enforced on these third-party websites, we encourage you to read any posted privacy policy of the third-party website before using the service or website and providing any information.",
+    "sub_sections": null
+  },
+  {
+    "type": "Section",
+    "title": "13. YOUR RIGHTS UNDER STATE LAW",
+    "content": null,
+    "sub_sections": [
+      {
+        "type": "SubSection",
+        "title": "<u>California.</u>",
+        "content": null,
+        "list_items": null,
+        "media_url": null,
+        "media_alt_text": null,
+        "sub_sub_sections": [
+          {
+            "type": "SubSubSection",
+            "title": "Shine the Light law.",
+            "content": "California Civil Code Section § 1798.83 permits users of our Website that are California residents to request certain information regarding our disclosure of Personal Information to third parties for their direct marketing purposes. To make such a request, please send an email to info@livsee.com. WE DO NOT SELL YOUR PERSONAL INFORMATION.",
+            "media_url": null,
+            "media_alt_text": null
+          },
+          {
+            "type": "SubSubSection",
+            "title": "Do Not Track Signals.",
+            "content": "Other than as disclosed in this Policy, the Platform does not operate any differently when it receives Do Not Track signals from your internet web browser.",
+            "media_url": null,
+            "media_alt_text": null
+          }
+        ]
+      },
+      {
+        "type": "SubSection",
+        "title": "<u>Nevada.</u>",
+        "content": "Nevada law permits customers in Nevada to opt-out of the sale of certain kinds of Personal Information. We do not sell your Personal Information to third parties as defined in Nevada law. If you have any questions, you can contact us at info@livsee.com.",
+        "list_items": null,
+        "media_url": null,
+        "media_alt_text": null,
+        "sub_sub_sections": null
+      },
+      {
+        "type": "SubSection",
+        "title": "<u>Your Consumer Rights.</u>",
+        "content": "Some state laws in the United States provide consumers with additional rights with respect to their personal information (also known as “personal data”), as those terms are defined under those applicable state laws. Such state laws may include, but are not limited to, the California Consumer Privacy Act of 2018, as amended by the California Privacy Rights Act of 2020, the Colorado Privacy Act, the Connecticut Data Privacy Act, the Florida Digital Bill of Rights, the Oregon Consumer Privacy Act, the Texas Data Privacy and Security Act, the Utah Consumer Privacy Act, and the Virginia Consumer Data Protection Act (collectively, the “U.S. State Privacy Laws”). Any Personal Information we collect is collected for the commercial purpose of effectively providing our services to you, as well as enabling you to learn more about, and benefit from, our services. If you reside in a state that provides additional rights with respect to your Personal Information, you may have additional rights to your personal information, subject to our verification of your identity. This section of the Policy applies solely to such individuals (“consumers” or “you”).",
+        "list_items": null,
+        "media_url": null,
+        "media_alt_text": null,
+        "sub_sub_sections": null
+      },
+      {
+        "type": "SubSection",
+        "title": "",
+        "content": "Livsee, Inc. is a “Service Provider” or “Processor” as defined by the U.S. State Privacy Laws where Livsee, Inc. processes your information on behalf of the Property that you are interested in. To the extent U.S. State Privacy Laws allow you to make certain requests, including requests to access, correct, limit or delete personal information or sensitive personal information, you must make these requests directly to the Property. If you submit a request to Livsee, Inc. regarding your rights under applicable U.S. State Privacy Laws, we may redirect you to the applicable Property."
+      }
+    ]
+  },
+  {
+    "type": "Section",
+    "title": "14. LOCATION OF OUR WEBSITE AND SERVICES",
+    "content": "We do not warrant or represent that this Policy or the Platform’s use of your Personal Information complies with the laws of every jurisdiction. Furthermore, to provide you with our services, we may store, process, and transmit information in the United States and other locations around the world, including countries that may not have the same privacy and security laws as yours. Regardless of the country in which such information is stored, we will process your Personal Information in accordance with this Policy.",
+    "sub_sections": null
+  },
+  {
+    "type": "Section",
+    "title": "15. SAFEGUARDING THE INFORMATION WE COLLECT",
+    "content": "We use reasonable technical, administrative, and physical safeguards in order to protect your Personal Information against accidental loss and from unauthorized access, use, alteration, and disclosure. However, we can never promise 100% security. You have a responsibility, as well, to safeguard your information through the proper use and security of any online credentials used to access your Personal Information, such as a username and password. If you believe your credentials have been compromised, please change your password. Please also notify us immediately of any actual or suspected unauthorized use of the Platform or your information.",
+    "sub_sections": null
+  },
+  {
+    "type": "Section",
+    "title": "16. CHANGES TO THIS POLICY",
+    "content": "This Policy describes our current policies and practices with regard to the information we collect through the Platform. We are continually improving and adding to the features and functionality of the Platform along with the products and services we offer through the Platform. If we make any changes to this Policy, a revised Policy will be posted on this webpage and the date of the change will be reported in the “Last Revised” block above. You can get to this page from any of our webpages by clicking on the “Privacy Policy” link (usually at the bottom of the screen).",
+    "sub_sections": null
+  }
+]
