@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import LivSeeLogoMarkRGB from "@/public/images/logo/Livsee-Logomark-RGB_champagne.svg";
+import { COMPANY_EMAIL } from "@/utils";
 export default function Footer() {
   return (
     <footer>
@@ -28,7 +29,7 @@ export default function Footer() {
               </h5>
               <p className="mt-[5px] max-w-3xl text-[16px] md:text-[24px] 2xl:text-[27px] leading-[1.4]">
                 <Link
-                  href="#"
+                  href={`mailto:${COMPANY_EMAIL}`}
                   className="group inline-flex text-(--Livsee-champagne) hover:text-white"
                   aria-label="Mail"
                 >
