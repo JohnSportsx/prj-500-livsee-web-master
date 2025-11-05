@@ -5,16 +5,6 @@ import DesktopHeroImage from "@/public/images/hero/hero-desktop.jpg";
 
 export default function CommonHeroBanner() {
   return (
-    // <section
-    //   className="relative isolate overflow-hidden text-(--Livsee-champagne)
-    //              bg-(--Livsee-emerald)
-    //              bg-[url('/images/hero/hero-mobile.jpg')]
-    //              lg:bg-[url('/images/hero/hero-desktop.jpg')]
-    //              bg-cover bg-center min-h-[850px] md:min-h-[1024px] lg:min-h-[1024px] xl:min-h-[900px] 2xl:min-h-[1080px]
-    //              border-b-[6px] xl:border-b-[8px] border-(--Livse-peach)
-    //              "
-    // >
-
     <section
       className="relative isolate overflow-hidden text-(--Livsee-champagne)
                  bg-(--Livsee-emerald)  
