@@ -4,6 +4,7 @@ import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import LiveLogo from "@/public/images/logo/Livsee-Logo-RGB_champagne.svg"
 import LivSeeLogoMarkRGB from "@/public/images/logo/Livsee-Logomark-RGB_champagne.svg";
 import { BLOG_URL, LOGIN_URL, NEWS_URL } from "@/utils";
 
@@ -48,7 +49,7 @@ export default function Header() {
             {/* Desktop Logo */}
             <div className="relative hidden xl:block rounded-full w-[100px] md:w-[150px] 2xl:w-[190px] aspect-square">
               <Image
-                src={LivSeeLogoMarkRGB.src}
+                src={LiveLogo.src}
                 alt="Logo"
                 fill
                 className="rounded-full object-contain"
