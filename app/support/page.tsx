@@ -2,7 +2,8 @@
 import CommonHeroBanner from "@/components/CommonHeroBanner";
 import Image from "next/image";
 import { useState, ChangeEvent, FormEvent } from "react";
-import { useDropzone } from "react-dropzone"; // Import react-dropzone
+import { useDropzone } from "react-dropzone";
+import CloudUp from "@/public/images/Icons_ui/line-md--cloud-up.svg"
 
 interface FormData {
   customerType: string;
@@ -312,7 +313,7 @@ export default function Support() {
                   <input {...getInputProps()} />
                   <div className="text-center">
                     <Image
-                      src="images/Icons_ui/line-md--cloud-up.svg"
+                      src={CloudUp.src}
                       alt="Upload Icon"
                       width={56}
                       height={56}

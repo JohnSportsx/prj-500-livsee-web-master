@@ -1,6 +1,11 @@
 import { useState } from "react";
 import Image from "next/image";
 
+import One from "@/public/images/Test.jpg";
+import Two from "@/public/images/test2.png";
+import Three from "@/public/images/test3.png";
+import Four from "@/public/images/maxres.jpg";
+
 interface Article {
   title: string;
   description: string;
@@ -21,7 +26,7 @@ const CardGrid: React.FC = () => {
       videoUrl: "/path/to/video1",
       timeToRead: "1 min read",
       author: "Colby Chilcote",
-      coverImage: "images/Test.jpg",
+      coverImage: One.src,
     },
     {
       title: "Women to Watch in PropTech: Andrea Michele Taylor",
@@ -30,7 +35,7 @@ const CardGrid: React.FC = () => {
       videoUrl: "/path/to/video1",
       timeToRead: "1 min read",
       author: "Colby Chilcote",
-      coverImage: "images/test2.png",
+      coverImage: Two.src,
     },
     {
       title: "Meet Livsee™",
@@ -39,7 +44,7 @@ const CardGrid: React.FC = () => {
       videoUrl: "/path/to/video1",
       timeToRead: "1 min read",
       author: "Colby Chilcote",
-      coverImage: "images/test3.png",
+      coverImage: Three.src,
     },
     {
       title: "Livsee Selected for Investment by Michigan Rise",
@@ -48,7 +53,7 @@ const CardGrid: React.FC = () => {
       videoUrl: "/path/to/video1",
       timeToRead: "1 min read",
       author: "Colby Chilcote",
-      coverImage: "images/maxres.jpg",
+      coverImage: Four.src,
     },
     {
       title: "A Year in Review: Building Livsee™",
@@ -57,7 +62,7 @@ const CardGrid: React.FC = () => {
       videoUrl: "/path/to/video1",
       timeToRead: "1 min read",
       author: "Colby Chilcote",
-      coverImage: "images/Test.jpg",
+      coverImage: One.src,
     },
     {
       title: "Women to Watch in PropTech: Andrea Michele Taylor",
@@ -66,7 +71,7 @@ const CardGrid: React.FC = () => {
       videoUrl: "/path/to/video1",
       timeToRead: "1 min read",
       author: "Colby Chilcote",
-      coverImage: "images/test2.png",
+      coverImage: Two.src,
     },
     {
       title: "Meet Livsee™",
@@ -75,7 +80,7 @@ const CardGrid: React.FC = () => {
       videoUrl: "/path/to/video1",
       timeToRead: "1 min read",
       author: "Colby Chilcote",
-      coverImage: "images/test3.png",
+      coverImage: Three.src,
     },
     {
       title: "Livsee Selected for Investment by Michigan Rise",
@@ -84,7 +89,7 @@ const CardGrid: React.FC = () => {
       videoUrl: "/path/to/video1",
       timeToRead: "1 min read",
       author: "Colby Chilcote",
-      coverImage: "images/maxres.jpg",
+      coverImage: Four.src,
     },
   ];
 

@@ -4,6 +4,8 @@ import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import LivSeeLogoMarkRGB from "@/public/images/logo/Livsee-Logomark-RGB_champagne.svg";
+import { BLOG_URL, NEWS_URL } from "@/utils";
 
 interface NavItem {
   label: string;
@@ -16,6 +18,8 @@ const NAV: NavItem[] = [
   { label: "FAQ", href: "/faq" },
   { label: "Connect", href: "/connect" },
   { label: "Support", href: "/support" },
+  {label: "News", href: NEWS_URL},
+  {label: "Blog", href: BLOG_URL},
   { label: "Contact", href: "/contact" },
 ];
 
@@ -32,7 +36,7 @@ export default function Header() {
             {/* Mobile Logo */}
             <div className="relative block xl:hidden rounded-full w-[60px] md:w-20 lg:w-[90px] aspect-square">
               <Image
-                src="images/logo/Livsee-Logomark-RGB_champagne.svg"
+                src={LivSeeLogoMarkRGB.src}
                 alt="Logo"
                 fill
                 className="rounded-full object-contain"
@@ -44,7 +48,7 @@ export default function Header() {
             {/* Desktop Logo */}
             <div className="relative hidden xl:block rounded-full w-[100px] md:w-[150px] 2xl:w-[190px] aspect-square">
               <Image
-                src="images/logo/Livsee-Logo-RGB_champagne.svg"
+                src={LivSeeLogoMarkRGB.src}
                 alt="Logo"
                 fill
                 className="rounded-full object-contain"
@@ -119,7 +123,7 @@ export default function Header() {
             <Link href="/" className="flex items-center gap-2">
               <div className="relative block xl:hidden rounded-full w-[60px] md:w-20 lg:w-[90px] aspect-square">
                 <Image
-                  src="images/logo/Livsee-Logomark-RGB_champagne.svg"
+                  src={LivSeeLogoMarkRGB.src}
                   alt="Logo"
                   fill
                   className="rounded-full object-contain"

@@ -2,6 +2,13 @@
 
 import Image from "next/image";
 import { useEffect, useMemo, useRef, useState } from "react";
+import DMAA from "@/public/images/Affiliations/dmaa.png"
+import RETTC from '@/public/images/Affiliations/rett.png';
+import NMHC from "@/public/images/Affiliations/nmhc.png";
+import NAA from '@/public/images/Affiliations/naa.png';
+import AAGD from '@/public/images/Affiliations/aagd.png';
+import USProptech from '@/public/images/Affiliations/us.png';
+import Home from '@/public/images/Affiliations/home.png';
 
 export type PartnerItem = { src: string; alt: string };
 
@@ -13,13 +20,13 @@ function chunk<T>(arr: T[], size: number) {
 
 export default function LogoSlider({
   items = [
-    { src: "images/Affiliations/dmaa.png", alt: "DMAA" },
-    { src: "images/Affiliations/rett.png", alt: "RETTC" },
-    { src: "images/Affiliations/nmhc.png", alt: "NMHC" },
-    { src: "images/Affiliations/naa.png", alt: "NAA" },
-    { src: "images/Affiliations/aagd.png", alt: "AAGD" },
-    { src: "images/Affiliations/us.png", alt: "US Proptech Council" },
-    { src: "images/Affiliations/home.png", alt: "Home" },
+    { src: DMAA.src, alt: "DMAA" },
+    { src: RETTC.src, alt: "RETTC" },
+    { src: NMHC.src, alt: "NMHC" },
+    { src: NAA.src, alt: "NAA" },
+    { src: AAGD.src, alt: "AAGD" },
+    { src: USProptech.src, alt: "US Proptech Council" },
+    { src: Home.src, alt: "Home" },
   ],
   autoPlay = true,
   autoPlayMs = 4000,

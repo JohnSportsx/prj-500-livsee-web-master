@@ -1,17 +1,24 @@
-import React from "react";
 import Image from "next/image";
 import LogoSlider from "@/components/LogoSlider";
 import Link from "next/link";
 
+import DMAA from "@/public/images/Affiliations/dmaa.png"
+import RETTC from '@/public/images/Affiliations/rett.png';
+import NMHC from "@/public/images/Affiliations/nmhc.png";
+import NAA from '@/public/images/Affiliations/naa.png';
+import AAGD from '@/public/images/Affiliations/aagd.png';
+import USProptech from '@/public/images/Affiliations/us.png';
+import Home from '@/public/images/Affiliations/home.png';
+
 export default function TrustedByIndustry() {
   const logos = [
-    { src: "images/Affiliations/dmaa.png", alt: "DMAA" },
-    { src: "images/Affiliations/rett.png", alt: "RETTC" },
-    { src: "images/Affiliations/nmhc.png", alt: "NMHC" },
-    { src: "images/Affiliations/naa.png", alt: "NAA" },
-    { src: "images/Affiliations/aagd.png", alt: "AAGD" },
-    { src: "images/Affiliations/us.png", alt: "US Proptech Council" },
-    { src: "images/Affiliations/home.png", alt: "Home" },
+    { src: DMAA.src, alt: "DMAA" },
+    { src: RETTC.src, alt: "RETTC" },
+    { src: NMHC.src, alt: "NMHC" },
+    { src: NAA.src, alt: "NAA" },
+    { src: AAGD.src, alt: "AAGD" },
+    { src: USProptech.src, alt: "US Proptech Council" },
+    { src: Home.src, alt: "Home" },
   ];
 
   return (

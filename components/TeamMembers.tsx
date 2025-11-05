@@ -1,5 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
+import Andrea from "@/public/images/Bio/Andrea_Michele_Taylor.png";
+import Arul from "@/public/images/Bio/Arul_Selvan.png";
+import { ANDREA_LINKEDIN, ANDREA_MAIL, ARUL_LINKEDIN, ARUL_MAIL } from "@/utils";
 
 export default function TeamMembers() {
   return (
@@ -13,7 +16,7 @@ export default function TeamMembers() {
         <article className="mt-[30px] lg:mt-[40px] xl:mt-[40px] 2xl:mt-[60px] flex flex-col items-center lg:flex-row lg:items-center gap-[20px] md:gap-[20px] 2xl:gap-[30px]">
           <div className="flex-none h-[220px] md:h-[200px] lg:h-[200px] 2xl:h-[280px] w-[220px] md:w-[200px] lg:w-[200px] 2xl:w-[280px] relative">
             <Image
-              src="images/Bio/Andrea_Michele_Taylor.png"
+              src={Andrea.src}
               alt="Andrea Michele Taylor"
               fill
               className="object-cover"
@@ -30,7 +33,7 @@ export default function TeamMembers() {
               Founder &amp; CEO
             </p>
             <div className="mt-[15px] md:mt-[15px] xl:mt-[15px] 2xl:mt-5 h-1 w-12 bg-(--Livse-peach)" />
-            <p className="mt-[15px] md:mt-[15px] xl:mt-[15px] 2xl:mt-5 text-[16px] md:text-[16px] 2xl:text-[18px] leading-[1.4]">
+            <p className="mt-[15px] md:mt-[15px] xl:mt-[15px] 2xl:mt-5 text-[16px] md:text-[16px] 2xl:text-[18px] leading-[1.4] text-justify">
               With over 15 years in the multifamily real estate industry, Andrea founded
               Livsee to transform the rental experience with tools that simplify leasing for
               renters and optimize occupancy for operators. Before launching Livsee, Andrea
@@ -42,9 +45,9 @@ export default function TeamMembers() {
 
             <div className="mt-5 flex items-center gap-3">
               <Link
-                href="#"
+                href={ANDREA_LINKEDIN}
                 className="group inline-flex h-11 w-11 items-center justify-center rounded-full bg-(--color-light-text) ring-1 ring-black/5 border-2 border-transparent transition-all duration-300 hover:bg-transparent hover:border-(--color-light-text)"
-                aria-label="Mail"
+                aria-label="LinkedIn"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -69,7 +72,7 @@ export default function TeamMembers() {
               </Link>
 
               <Link
-                href="#"
+                href={`mailto:${ANDREA_MAIL}`}
                 className="group inline-flex h-11 w-11 items-center justify-center rounded-full bg-[var(--color-light-text)] ring-1 ring-black/5 border-2 border-transparent transition-all duration-300 hover:bg-transparent hover:border-[var(--color-light-text)]"
                 aria-label="Mail"
               >
@@ -100,7 +103,7 @@ export default function TeamMembers() {
         <article className="mt-[30px] lg:mt-[40px] xl:mt-[40px] 2xl:mt-[60px] flex flex-col items-center lg:flex-row lg:items-center gap-[20px] md:gap-[20px] 2xl:gap-[30px]">
           <div className="flex-none h-[220px] md:h-[200px] lg:h-[200px] 2xl:h-[280px] w-[220px] md:w-[200px] lg:w-[200px] 2xl:w-[280px] relative">
             <Image
-              src="images/Bio/Arul_Selvan.png"
+              src={Arul.src}
               alt="Arul Selvan"
               fill
               className="object-cover"
@@ -113,23 +116,18 @@ export default function TeamMembers() {
               Arul Selvan
             </h4>
             <p className="font-serif mt-[10px] md:mt-[10px] 2xl:mt-[12px] text-[16px] md:text-[18px] 2xl:text-[20px] leading-[1.2]">
-              Founder &amp; CEO
+              Chief Technology Advisor
             </p>
             <div className="mt-[15px] md:mt-[15px] xl:mt-[15px] 2xl:mt-5 h-1 w-12 bg-(--Livse-peach)" />
-            <p className="mt-[15px] md:mt-[15px] xl:mt-[15px] 2xl:mt-5 text-[16px] md:text-[16px] 2xl:text-[18px] leading-[1.4]">
-              Arul is a seasoned technology leader with over 30 years of experience across
-              multifamily, e-commerce, and medical imaging. He brings technical expertise and
-              a proven record of driving innovation at scale, leading engineering teams for
-              over 15 years. His experience at companies like RealPage underscores his
-              availability to advance growth and operational excellence in the property
-              technology space.
+            <p className="mt-[15px] md:mt-[15px] xl:mt-[15px] 2xl:mt-5 text-[16px] md:text-[16px] 2xl:text-[18px] leading-[1.4] text-justify">
+             Arul is a seasoned technology executive with over 30 years of experience spanning proptech, fintech, cybersecurity, healthcare, and other sectors. He combines deep technical expertise with a proven track record of driving innovation at scale, having led high-performing engineering teams for more than 15 years. His leadership at companies like RealPage highlights his ability to accelerate growth and deliver operational excellence in the property technology domain.
             </p>
 
             <div className="mt-5 flex items-center gap-3">
               <Link
-                href="#"
+                href={ARUL_LINKEDIN}
                 className="group inline-flex h-11 w-11 items-center justify-center rounded-full bg-(--color-light-text) ring-1 ring-black/5 border-2 border-transparent transition-all duration-300 hover:bg-transparent hover:border-(--color-light-text)"
-                aria-label="Mail"
+                aria-label="LinkedIn"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -154,7 +152,7 @@ export default function TeamMembers() {
               </Link>
 
               <Link
-                href="#"
+                href={`mailto:${ARUL_MAIL}`}
                 className="group inline-flex h-11 w-11 items-center justify-center rounded-full bg-[var(--color-light-text)] ring-1 ring-black/5 border-2 border-transparent transition-all duration-300 hover:bg-transparent hover:border-[var(--color-light-text)]"
                 aria-label="Mail"
               >
