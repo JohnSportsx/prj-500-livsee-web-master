@@ -54,7 +54,7 @@ export default function CommonHeroBanner() {
               </Link>
 
               <Link
-                href="#demo"
+                href={"/book_demo"}
                 className="rounded-full border-2 border-(--Live-see-btn) text-(--Live-see-btn) font-semibold
                           text-[14px] md:text-[16px] 2xl:text-[20px] px-5 md:px-6 2xl:px-[29px] py-[8.5px] md:py-[9.5px] 2xl:py-[10.5px]
                           hover:border-(--Live-see-btn-hover) hover:text-(--Live-see-btn-hover) hover:bg-transparent
