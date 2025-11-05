@@ -85,7 +85,7 @@
       },
       {
         "type": "SubSection",
-        "title": "<u>(a)Information We May Collect on the Platform</u>",
+        "title": "(a)Information We May Collect on the Platform",
         "content": "You may have the opportunity to provide Personal Information on the Platform, including but not limited to:",
         "list_items": null,
         "media_url": "https://static.wixstatic.com/media/81222c_5cbfca6eab524360a33967b5b4996418~mv2.png/v1/crop/x_0,y_1,w_643,h_786/fill/w_643,h_786,fp_0.50_0.50,q_90,enc_avif,quality_auto/Livsee%20privacy%20policy.png",
@@ -118,7 +118,7 @@
     "sub_sections": [
       {
         "type": "SubSection",
-        "title": "<u>(a)Cookies.</u>",
+        "title": "(a)Cookies.",
         "content": "A “cookie” is a small data file transmitted from a website to your device’s hard drive. Cookies are usually defined in one of two ways, and we may use either (or both) of them:\n\n* session cookies, which do not stay on your device after you close your browser, and\n* persistent cookies, which remain on your device until you delete them or they expire.\n\nWe may use the following categories of cookies on the Platform:",
         "list_items": null,
         "media_url": null,
@@ -165,7 +165,7 @@
       },
       {
         "type": "SubSection",
-        "title": "<u>(b) Google Analytics.</u>",
+        "title": "(b) Google Analytics.",
         "content": "The Website sends aggregated non-Personal Information to Google Analytics for the purpose of providing us with the ability to conduct technical and statistical analysis on the Platform’s performance. For more information on how Google Analytics supports the Platform and uses information sent from the Platform, please review Google’s privacy policy available at https://policies.google.com/technologies/partner-sites",
         "list_items": null,
         "media_url": null,
@@ -174,7 +174,7 @@
       },
       {
         "type": "SubSection",
-        "title": "<u>(c) Web Beacons.</u>",
+        "title": "(c) Web Beacons.",
         "content": "A Web Beacon is an electronic image. Web Beacons can track certain things from your computer and can report activity back to a web server allowing us to understand some of your behavior. If you choose to receive emails from us, we may use Web Beacons to track your reaction to our emails. We may also use them to track if you click on the links and at what time and date you do so. Some of the third-party marketers we engage with may use Web Beacons to track your interaction with online advertising banners on the Platform. This information is only collected in aggregate form and will not be linked to your Personal Information. Please note that any image file on a webpage can act as a Web Beacon.",
         "list_items": null,
         "media_url": null,
@@ -183,7 +183,7 @@
       },
       {
         "type": "SubSection",
-        "title": "<u>(d) Embedded Web Links.</u>",
+        "title": "(d) Embedded Web Links.",
         "content": "Links provided in our emails and, in some cases, on third-party websites may include tracking technology embedded in the link. The tracking is accomplished through a redirection system. The redirection system allows us to understand how the link is being used by email recipients. Some of these links will enable us to identify that you have personally clicked on the link and this may be attached to the Personal Information that we hold about you. This data is used to improve our service to you and to help us understand the performance of our marketing campaigns.",
         "list_items": null,
         "media_url": null,
@@ -192,7 +192,7 @@
       },
       {
         "type": "SubSection",
-        "title": "<u>(e) Third-party Websites and Services.</u>",
+        "title": "(e) Third-party Websites and Services.",
         "content": "We work with a number of service providers of marketing communications technology. These service providers may use various data collection methods to improve the performance of the marketing campaigns we are contracting them to provide. The information collected can be gathered on the Platform and also on the websites where our marketing communications are appearing. For example, we may collect data where our banner advertisements are displayed on third-party websites.",
         "list_items": null,
         "media_url": null,
@@ -230,7 +230,7 @@
       },
       {
         "type": "SubSection",
-        "title": "<u>Duration.</u>",
+        "title": "Duration.",
         "content": "The length of time Company intends to retain Personal Information, including sensitive personal information, if any, is for as long as reasonably necessary to carry out Company’s intended business purpose for such information.",
         "list_items": null,
         "media_url": null,
@@ -376,7 +376,7 @@
     "sub_sections": [
       {
         "type": "SubSection",
-        "title": "<u>California.</u>",
+        "title": "California.",
         "content": null,
         "list_items": null,
         "media_url": null,
@@ -400,7 +400,7 @@
       },
       {
         "type": "SubSection",
-        "title": "<u>Nevada.</u>",
+        "title": "Nevada.",
         "content": "Nevada law permits customers in Nevada to opt-out of the sale of certain kinds of Personal Information. We do not sell your Personal Information to third parties as defined in Nevada law. If you have any questions, you can contact us at info@livsee.com.",
         "list_items": null,
         "media_url": null,
@@ -409,7 +409,7 @@
       },
       {
         "type": "SubSection",
-        "title": "<u>Your Consumer Rights.</u>",
+        "title": "Your Consumer Rights.",
         "content": "Some state laws in the United States provide consumers with additional rights with respect to their personal information (also known as “personal data”), as those terms are defined under those applicable state laws. Such state laws may include, but are not limited to, the California Consumer Privacy Act of 2018, as amended by the California Privacy Rights Act of 2020, the Colorado Privacy Act, the Connecticut Data Privacy Act, the Florida Digital Bill of Rights, the Oregon Consumer Privacy Act, the Texas Data Privacy and Security Act, the Utah Consumer Privacy Act, and the Virginia Consumer Data Protection Act (collectively, the “U.S. State Privacy Laws”). Any Personal Information we collect is collected for the commercial purpose of effectively providing our services to you, as well as enabling you to learn more about, and benefit from, our services. If you reside in a state that provides additional rights with respect to your Personal Information, you may have additional rights to your personal information, subject to our verification of your identity. This section of the Policy applies solely to such individuals (“consumers” or “you”).",
         "list_items": null,
         "media_url": null,

@@ -38,7 +38,7 @@ const ContentRenderer = ({ content }: { content: string | null }) => {
 
   const urlRegex = /(https?:\/\/[^\s]+)/g;
 
-  const paragraphs = content.split('\n').map((paragraphText, pIndex) => {
+  const paragraphs = content.split("\n").map((paragraphText, pIndex) => {
     const parts = paragraphText.split(urlRegex);
 
     const paragraphContent = parts.map((part, index) => {
@@ -70,55 +70,47 @@ const ContentRenderer = ({ content }: { content: string | null }) => {
   return <>{paragraphs}</>;
 };
 
-// --- Helper Function to underline specific words in the title ---
-const applyUnderline = (text: string, wordsToUnderline: string[]): string => {
-  let updatedText = text;
-  wordsToUnderline.forEach(word => {
-    const regex = new RegExp(`(${word})`, 'gi'); // Case-insensitive search
-    updatedText = updatedText.replace(regex, '<u>$1</u>'); // Wrap the matched word in <u> tags
-  });
-  return updatedText;
-};
 
 // --- Helper Component: Renders an Image if media_url is present ---
 const MediaRenderer = ({ url, alt }: { url?: string; alt?: string }) => {
-    if (!url) return null;
+  if (!url) return null;
 
-    // Determine if the URL is from a static/local source (optional, but good practice)
-    const isExternal = url.startsWith('http');
+  // Determine if the URL is from a static/local source (optional, but good practice)
+  const isExternal = url.startsWith("http");
 
-    return (
-        // Use a div to constrain the image size, useful for large remote images
-        <div className="my-[20px] max-w-full mx-auto" style={{ maxWidth: '600px' }}> 
-            <Image 
-                src={url} 
-                alt={alt || 'Policy-related image'}
-                layout="responsive"  
-                width={700}
-                height={850}
-                unoptimized={isExternal}
-                className="w-full h-auto rounded-lg shadow-md"
-            />
-            {alt && <p className="text-sm text-gray-500 mt-2 italic text-center">{alt}</p>}
-        </div>
-    );
+  return (
+    // Use a div to constrain the image size, useful for large remote images
+    <div className="my-[20px] max-w-full mx-auto" style={{ maxWidth: "600px" }}>
+      <Image
+        src={url}
+        alt={alt || "Policy-related image"}
+        layout="responsive"
+        width={700}
+        height={850}
+        unoptimized={isExternal}
+        className="w-full h-auto rounded-lg shadow-md"
+      />
+      {alt && (
+        <p className="text-sm text-gray-500 mt-2 italic text-center">{alt}</p>
+      )}
+    </div>
+  );
 };
 
 // --- Helper Component: Renders a Bulleted/Unordered List ---
 const ListRenderer = ({ items }: { items?: string[] | null }) => {
-    if (!items || items.length === 0) return null;
+  if (!items || items.length === 0) return null;
 
-    return (
-        <ul className="list-disc ml-[20px] my-[10px] space-y-2">
-            {items.map((item, index) => (
-                <li key={index}>
-                    <ContentRenderer content={item} /> 
-                </li>
-            ))}
-        </ul>
-    );
+  return (
+    <ul className="list-disc ml-[20px] my-[10px] space-y-2">
+      {items.map((item, index) => (
+        <li key={index}>
+          <ContentRenderer content={item} />
+        </li>
+      ))}
+    </ul>
+  );
 };
-
 
 // --- Component Definitions ---
 
@@ -145,24 +137,23 @@ const SubSection = ({
   media_alt_text,
   children,
 }: SubSectionData & { children: React.ReactNode }) => {
-  const underlinedTitle = applyUnderline(title, ["California"]); // Apply underline to California
 
   return (
     <div className="mb-[20px]">
       <h3 className="text-[18px] md:text-[22px] 2xl:text-[24px] font-semibold mb-[15px]">
         {/* Render title with potential underline applied */}
-        <span dangerouslySetInnerHTML={{ __html: underlinedTitle }} />
+        <span>{title}</span>
       </h3>
       <div className="text-[16px] md:text-[18px] 2xl:text-[20px] leading-[1.4]">
         {/* 1. Render the main content (paragraphs) */}
         <ContentRenderer content={content} />
-        
+
         {/* 2. Render any image */}
         <MediaRenderer url={media_url} alt={media_alt_text} />
 
         {/* 3. Render any bulleted list items */}
         <ListRenderer items={list_items} />
-        
+
         {/* 4. Render nested children (SubSubSections) */}
         {children}
       </div>
@@ -170,30 +161,33 @@ const SubSection = ({
   );
 };
 
-const SubSubSection = ({
+const SubSubSection = (
+  {
     title,
     content,
     list_items,
     media_url,
     media_alt_text,
-}: SubSubSection & { list_items?: string[] | null }) => ( // <- ADDED list_items to props interface
-    <div className="mb-[15px] pl-5"> {/* Added left padding for visual nesting */}
-        <h4 className="text-[16px] md:text-[20px] 2xl:text-[22px] font-medium mb-[12px]">
-            {title}
-        </h4>
-        <div className="text-[14px] md:text-[16px] 2xl:text-[18px] leading-[1.4]">
-            {/* Render content */}
-            <ContentRenderer content={content} />
-            
-            {/* Render list items at SubSubSection level */}
-            <ListRenderer items={list_items} />
-            
-            {/* Render any image at the sub-sub-section level */}
-            <MediaRenderer url={media_url} alt={media_alt_text} />
-        </div>
-    </div>
-);
+  }: SubSubSection & { list_items?: string[] | null } // <- ADDED list_items to props interface
+) => (
+  <div className="mb-[15px] pl-5">
+    {" "}
+    {/* Added left padding for visual nesting */}
+    <h4 className="text-[16px] md:text-[20px] 2xl:text-[22px] font-medium mb-[12px]">
+      {title}
+    </h4>
+    <div className="text-[14px] md:text-[16px] 2xl:text-[18px] leading-[1.4]">
+      {/* Render content */}
+      <ContentRenderer content={content} />
 
+      {/* Render list items at SubSubSection level */}
+      <ListRenderer items={list_items} />
+
+      {/* Render any image at the sub-sub-section level */}
+      <MediaRenderer url={media_url} alt={media_alt_text} />
+    </div>
+  </div>
+);
 
 // --- Main Component ---
 
@@ -218,10 +212,7 @@ export default function PrivacyPolicy() {
               <div>
                 {/* Main Mapping Logic: Map through the top-level DocumentSection array */}
                 {policyData.map((section, sectionIndex) => (
-                  <Section 
-                    key={sectionIndex} 
-                    title={section.title}
-                  >
+                  <Section key={sectionIndex} title={section.title}>
                     {/* Render the optional main Section content if it exists (e.g., section 1 intro) */}
                     <div className="text-[18px] 2xl:text-[20px] leading-[1.4] mb-[20px]">
                       <ContentRenderer content={section.content} />
