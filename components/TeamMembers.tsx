@@ -6,7 +6,7 @@ import { ANDREA_LINKEDIN, ANDREA_MAIL, ARUL_LINKEDIN, ARUL_MAIL } from "@/utils"
 
 export default function TeamMembers() {
   return (
-    <main className="text-(--color-light-text) antialiased mx-auto pt-[50] md:pt-[80] pb-[50] md:pb-[80] px-5 md:px-10 lg:px-10 xl:px-[100px] 2xl:md:px-0">
+    <main className="text-(--color-light-text) antialiased mx-auto pt-[50] md:pt-[80] pb-[50] md:pb-[80] px-5 md:px-10 lg:px-10 xl:px-[80px] 2xl:md:px-0">
       <section className="max-w-full 2xl:max-w-[1204px] mx-auto">
         <h3 className="font-serif text-[24px] md:text-[40px] 2xl:text-[47px] leading-[1.2] text-center">
           Our Team

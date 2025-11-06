@@ -140,7 +140,7 @@ const SubSection = ({
 
   return (
     <div className="mb-[20px]">
-      <h3 className="text-[18px] md:text-[22px] 2xl:text-[24px] font-semibold mb-[15px]">
+      <h3 className="text-[18px] md:text-[22px] 2xl:text-[24px] font-semibold mb-[5px]">
         {/* Render title with potential underline applied */}
         <span>{title}</span>
       </h3>
@@ -200,7 +200,7 @@ export default function PrivacyPolicy() {
       />
 
       <section className="text-[var(--color-light-text)]">
-        <div className="mx-auto pt-[50px] md:pt-[80px] pb-[30px] md:pb-[60px] px-5 md:px-10 lg:px-10 xl:px-[100px] 2xl:md:px-0">
+        <div className="mx-auto pt-[50px] md:pt-[80px] pb-[30px] md:pb-[60px] px-5 md:px-10 lg:px-10 xl:px-[80px] 2xl:md:px-0">
           <div className="text-center max-w-full 2xl:max-w-[1204px] mx-auto">
             <h2 className="font-serif text-[24px] md:text-[40px] 2xl:text-[47px] leading-[1.2] text-center mb-[30px] lg:mb-[40px] xl:mb-[40px] 2xl:mb-[50px]">
               Privacy Policy

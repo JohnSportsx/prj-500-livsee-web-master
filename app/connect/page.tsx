@@ -22,7 +22,7 @@ export default function Connect() {
           </div>
         </div>
 
-        <div className="max-w-full 2xl:max-w-[79.74%] mx-auto pb-[50px] md:pb-[80px] px-5 md:px-10 lg:px-10 xl:px-[100px] 2xl:md:px-0">
+        <div className="max-w-full 2xl:max-w-[79.74%] mx-auto pb-[50px] md:pb-[80px] px-5 md:px-10 lg:px-10 xl:px-[80px] 2xl:md:px-0">
           <CardGrid />
         </div>
       </section>

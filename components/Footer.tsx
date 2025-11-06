@@ -5,7 +5,7 @@ import { COMPANY_EMAIL } from "@/utils";
 export default function Footer() {
   return (
     <footer>
-      <div className="mx-auto max-w-full px-5 md:px-[40px] xl:px-[100px] 2xl:px-[100px] text-(--Livsee-champagne) pt-[40] pb-[40] bg-(--Livsee-emerald) text-white py-8 px-4">
+      <div className="mx-auto max-w-full px-5 md:px-[40px] xl:px-[80px] 2xl:px-[100px] text-(--Livsee-champagne) pt-[40] pb-[40] bg-(--Livsee-emerald) text-white py-8 px-4">
         <div className="">
           <Image
             src={LivSeeLogoMarkRGB.src}
@@ -130,7 +130,7 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-2 mx-auto max-w-full md:px-[40px] xl:px-[100px] 2xl:px-[100px] bg-[color:var(--Livsee-champagne)] pt-[15px] pb-[15px]">
+      <div className="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-2 mx-auto max-w-full md:px-[40px] xl:px-[80px] 2xl:px-[100px] bg-[color:var(--Livsee-champagne)] pt-[15px] pb-[15px]">
         <p className="text-[14px] text-[#7a755f] leading-none text-center md:text-left">
           Copyright © 2025 Livsee®
         </p>

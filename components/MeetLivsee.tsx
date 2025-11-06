@@ -71,7 +71,7 @@ export default function MeetLivsee() {
             </div>
           </div>
 
-          <div className="space-y-8 pr-5 md:pr-[20px] lg:pr-[40px] xl:pr-[100px] 2xl:pr-[200px] pl-5 md:pl-[20px] lg:pl-[40px]">
+          <div className="space-y-8 pr-5 md:pr-[20px] lg:pr-[40px] xl:pr-[80px] 2xl:pr-[200px] pl-5 md:pl-[20px] lg:pl-[40px]">
             <div className="flex gap-5 md:gap-[30px]">
               <div className="shrink-0">
                 <div className="relative w-[60px] md:w-[90px] 2xl:w-[125px] h-auto">
@@ -130,7 +130,7 @@ export default function MeetLivsee() {
         </div>
 
         <div className="mt-10 md:mt-[30px] lg:mt-[60px] grid grid-cols-1 lg:grid-cols-[auto_auto] gap-[15px] lg:gap-[30px] items-center">
-          <div className="space-y-8 pr-5 lg:pr-0 2xl:pr-0 lg:pl-[40px] xl:pl-[100px] 2xl:pl-[200px] pl-5">
+          <div className="space-y-8 pr-5 lg:pr-0 2xl:pr-0 lg:pl-[40px] xl:pl-[80px] 2xl:pl-[200px] pl-5">
             <div className="flex gap-5 md:gap-[30px]">
               <div className="shrink-0">
                 <div className="relative w-[60px] md:w-[90px] 2xl:w-[125px] h-auto">

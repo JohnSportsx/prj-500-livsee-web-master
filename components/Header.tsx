@@ -30,7 +30,7 @@ export default function Header() {
 
   return (
     <div className="absolute w-full z-50 max-w-full">
-      <div className="mx-auto max-w-full px-5 md:px-10 lg:px-10 xl:px-[100px] 2xl:px-[100px]">
+      <div className="mx-auto max-w-full px-5 md:px-10 lg:px-10 xl:px-[80px] 2xl:px-[100px]">
         <div className="flex pt-[25px] xl:pt-0 items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2.5">
@@ -47,7 +47,7 @@ export default function Header() {
             </div>
 
             {/* Desktop Logo */}
-            <div className="relative hidden xl:block rounded-full w-[100px] md:w-[150px] 2xl:w-[190px] aspect-square">
+            <div className="relative hidden xl:block rounded-full w-[100px] md:w-[130px] lg:w-[140px] xl:w-[140px] 2xl:w-[190px] aspect-square">
               <Image
                 src={LiveLogo.src}
                 alt="Logo"
@@ -60,8 +60,8 @@ export default function Header() {
           </Link>
 
           {/* Desktop Nav */}
-          <div className="ml-auto hidden xl:flex items-center gap-[20px] md:gap-[30px] 2xl:gap-[60px]">
-            <nav className="flex items-center gap-[20px] md:gap-[30px] 2xl:gap-[60px]">
+          <div className="ml-auto hidden xl:flex items-center gap-[20px] lg:gap-[20px] xl:gap-[20px] 2xl:gap-[50px]">
+            <nav className="flex items-center gap-[20px] lg:gap-[20px] xl:gap-[26px] 2xl:gap-[50px]">
               {NAV.map((n) => {
                 const isActive = pathname === n.href;
                 return (
@@ -69,7 +69,7 @@ export default function Header() {
                     key={n.label}
                     href={n.href}
                     prefetch={false}
-                    className={`font-semibold text-[16px] md:text-[18px] 2xl:text-[20px] transition-colors duration-300
+                    className={`font-semibold text-[16px] md:text-[16px] 2xl:text-[20px] transition-colors duration-300
                       ${
                         isActive
                           ? "text-(--Live-see-btn-hover)"

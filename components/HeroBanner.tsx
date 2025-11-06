@@ -30,7 +30,7 @@ export default function CommonHeroBanner() {
       />
       {/* Green overlay */}
 
-      <div className="relative mx-auto max-w-full px-5 md:px-10 lg:px-10 xl:px-[100px] 2xl:px-[100px]text-(--Livsee-champagne)">
+      <div className="relative mx-auto max-w-full px-5 md:px-10 lg:px-10 xl:px-[80px] 2xl:px-[100px]text-(--Livsee-champagne)">
         <div className="grid grid-cols-1 md:grid-cols-1">
           {/* Text content */}
           <div className="pt-[200px] md:pt-[250px] 2xl:pt-[300px]">
