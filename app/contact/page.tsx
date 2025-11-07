@@ -68,7 +68,7 @@ export default function Contact() {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
-          "Authorization": `Bearer ${process.env.SUPABASE_TOKEN!}`
+          "Authorization": `Bearer ${process.env.NEXT_PUBLIC_SUPABASE_TOKEN!}`
         },
         body: JSON.stringify(formData),
       });
