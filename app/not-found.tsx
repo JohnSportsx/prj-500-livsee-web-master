@@ -20,7 +20,7 @@ export default function Error() {
           </h2>
           <div className="text-center">
               <p className="mt-[9px] text-[16px] md:text-[18px] 2xl:text-[20px] leading-[1.4] mb-[20px] md:mb-[40] ">
-                Return to <Link href="/" className="underline underline-offset-5">Home Page </Link>
+                Return to <Link href={"/"} className="underline underline-offset-5">Home Page </Link>
                 </p>
             </div>
         </div>

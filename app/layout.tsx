@@ -22,10 +22,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   let manifestUrl = "images/Favicon/site.webmanifest";
+  // manifestUrl =
+  //   process.env.NEXT_PUBLIC_NODE_ENV !== "production"
+  //     ? manifestUrl
+  //     : `${process.env.NEXT_PUBLIC_ASSET_PREFIX || "/livsee"}/${manifestUrl}`;
+
   manifestUrl =
     process.env.NEXT_PUBLIC_NODE_ENV !== "production"
-      ? manifestUrl
-      : `${process.env.NEXT_PUBLIC_ASSET_PREFIX || "/livsee"}/${manifestUrl}`;
+      ? `${process.env.NEXT_PUBLIC_ASSET_PREFIX || "/livsee"}/${manifestUrl}`
+      : manifestUrl;
 
   return (
     <html lang="en" className="scroll-smooth" data-scroll-behavior="smooth">

@@ -8,8 +8,8 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: isDev ? "" : BASE_PATH,
-  assetPrefix: isDev ? "" : ASSET_PREFIX,
+  basePath: isDev ? BASE_PATH : "",
+  assetPrefix: isDev ? ASSET_PREFIX : "",
 };
 
 export default nextConfig;

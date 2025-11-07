@@ -6,7 +6,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import LiveLogo from "@/public/images/logo/Livsee-Logo-RGB_champagne.svg"
 import LivSeeLogoMarkRGB from "@/public/images/logo/Livsee-Logomark-RGB_champagne.svg";
-import { BLOG_URL, BOOK_DEMO, LOGIN_URL, NEWS_URL } from "@/utils";
+import { BOOK_DEMO, LOGIN_URL, NEWS_URL } from "@/utils";
 
 interface NavItem {
   label: string;
@@ -20,7 +20,7 @@ const NAV: NavItem[] = [
   // { label: "Connect", href: "/connect" },
   // { label: "Support", href: "/support" },
   { label: "News", href: NEWS_URL },
-  { label: "Blog", href: BLOG_URL },
+  // { label: "Blog", href: BLOG_URL },
   { label: "Contact", href: "/contact" },
 ];
 
@@ -168,7 +168,7 @@ export default function Header() {
             })}
             <Link
               onClick={() => setOpen(false)}
-              href={"/book_demo"}
+              href={BOOK_DEMO}
               className="block px-4 py-4 text-[16px] text-(--Livsee-champagne) hover:bg-white/5"
             >
               Book a Demo

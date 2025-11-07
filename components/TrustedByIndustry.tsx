@@ -102,13 +102,13 @@ export default function TrustedByIndustry() {
             </div> */}
              <LogoSlider
                 items={[
-                  { src: "images/Affiliations/dmaa.png", alt: "DMAA" },
-                  { src: "images/Affiliations/rett.png", alt: "RETTC" },
-                  { src: "images/Affiliations/nmhc.png", alt: "NMHC" },
-                  { src: "images/Affiliations/naa.png", alt: "NAA" },
-                  { src: "images/Affiliations/aagd.png", alt: "AAGD" },
-                  { src: "images/Affiliations/us.png", alt: "US Proptech Council" },
-                  { src: "images/Affiliations/home.png", alt: "Home" },
+                  { src: DMAA.src, alt: "DMAA" },
+                  { src: RETTC.src, alt: "RETTC" },
+                  { src: NMHC.src, alt: "NMHC" },
+                  { src: NAA.src, alt: "NAA" },
+                  { src: AAGD.src, alt: "AAGD" },
+                  { src: USProptech.src, alt: "US Proptech Council" },
+                  { src: Home.src, alt: "Home" },
                    { src: Yardi.src, alt: "Yardi" } 
                 ]}
               />
