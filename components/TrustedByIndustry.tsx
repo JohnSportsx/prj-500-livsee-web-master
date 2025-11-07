@@ -24,7 +24,11 @@ export default function TrustedByIndustry() {
   ];
 
   return (
-    <section className="mx-auto max-w-full px-5 md:px-[40px] xl:px-[80px] 2xl:px-[100px] bg-(--Livsee-emerald) text-(--Livsee-champagne) pt-[40] pb-[40] border-b-[6px] xl:border-b-[8px] border-(--Livse-peach)">
+    <section className="mx-auto max-w-full px-5 md:px-[40px] xl:px-[80px] 2xl:px-[100px] bg-(--Livsee-emerald) text-(--Livsee-champagne) pt-[40] pb-[40] border-b-[6px] xl:border-b-[8px] border-t-[6px] xl:border-t-[8px] border-(--Livse-peach)" 
+        data-aos="fade-up"
+        data-aos-duration="1000"
+        data-aos-once="true"
+    >
       <div className="grid gap-4 grid-cols-1 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-3 2xl:grid-cols-3">
         {/* Left column (text) */}
         <div className="w-full xl:w-auto">

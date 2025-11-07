@@ -9,7 +9,11 @@ export default function Error() {
     subtitle="This page isn’t available."
     />
    <section className="text-[var(--color-light-text)] min-h-[300px] md:min-h-[500px]">
-      <div className="mx-auto pt-[50px] md:pt-[80px] pb-[0] md:pb-[40px] px-5 md:px-10 lg:px-10 xl:px-[100px] 2xl:md:px-0">
+      <div className="mx-auto pt-[50px] md:pt-[80px] pb-[0] md:pb-[40px] px-5 md:px-10 lg:px-10 xl:px-[100px] 2xl:md:px-0"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-once="true"
+      >
         <div className="text-center max-w-full 2xl:max-w-[1204px] mx-auto">
           <h2 className="font-serif text-[24px] md:text-[40px] 2xl:text-[47px] leading-[1.2] text-center mb-[30px] lg:mb-[40px] xl:mb-[40px] 2xl:mb-[50px]">
             Error: Page Not Found

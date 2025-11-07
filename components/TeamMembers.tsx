@@ -7,13 +7,19 @@ import { ANDREA_LINKEDIN, ANDREA_MAIL, ARUL_LINKEDIN, ARUL_MAIL } from "@/utils"
 export default function TeamMembers() {
   return (
     <main className="text-(--color-light-text) antialiased mx-auto pt-[50] md:pt-[80] pb-[50] md:pb-[80] px-5 md:px-10 lg:px-10 xl:px-[80px] 2xl:md:px-0">
-      <section className="max-w-full 2xl:max-w-[1204px] mx-auto">
-        <h3 className="font-serif text-[24px] md:text-[40px] 2xl:text-[47px] leading-[1.2] text-center">
+      <section className="max-w-full 2xl:max-w-[1204px] mx-auto" >
+        <h3 className="font-serif text-[24px] md:text-[40px] 2xl:text-[47px] leading-[1.2] text-center"         data-aos="fade-up"
+        data-aos-duration="1000"
+        data-aos-once="true" >
           Our Team
         </h3>
 
         {/* Andrea Michele Taylor */}
-        <article className="mt-[30px] lg:mt-[40px] xl:mt-[40px] 2xl:mt-[60px] flex flex-col items-center lg:flex-row lg:items-center gap-[20px] md:gap-[20px] 2xl:gap-[30px]">
+        <article className="mt-[30px] lg:mt-[40px] xl:mt-[40px] 2xl:mt-[60px] flex flex-col items-center lg:flex-row lg:items-center gap-[20px] md:gap-[20px] 2xl:gap-[30px]"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-once="true" 
+        >
           <div className="flex-none h-[220px] md:h-[200px] lg:h-[200px] 2xl:h-[280px] w-[220px] md:w-[200px] lg:w-[200px] 2xl:w-[280px] relative">
             <Image
               src={Andrea.src}
@@ -100,7 +106,11 @@ export default function TeamMembers() {
         </article>
 
         {/* Arul Selvan */}
-        <article className="mt-[30px] lg:mt-[40px] xl:mt-[40px] 2xl:mt-[60px] flex flex-col items-center lg:flex-row lg:items-center gap-[20px] md:gap-[20px] 2xl:gap-[30px]">
+        <article className="mt-[30px] lg:mt-[40px] xl:mt-[40px] 2xl:mt-[60px] flex flex-col items-center lg:flex-row lg:items-center gap-[20px] md:gap-[20px] 2xl:gap-[30px]"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-once="true" 
+        >
           <div className="flex-none h-[220px] md:h-[200px] lg:h-[200px] 2xl:h-[280px] w-[220px] md:w-[200px] lg:w-[200px] 2xl:w-[280px] relative">
             <Image
               src={Arul.src}

@@ -1,13 +1,15 @@
 import type { Metadata } from "next";
-import Header from "../components/Header";
-import "./globals.css";
+import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import { ToastContainer } from "react-toastify";
 import { getImageUrl } from "@/utils";
+import AOSProvider from "@/components/AOSProvider";
+import "./globals.css";
+import "aos/dist/aos.css";
 
 import AppleTouchIcon from "@/public/images/Favicon/apple-touch-icon.png";
 import Favicon32 from "@/public/images/Favicon/favicon-32x32.png";
 import Favicon16 from "@/public/images/Favicon/favicon-16x16.png";
-import { ToastContainer } from "react-toastify";
 
 export const metadata: Metadata = {
   title: "LivSee",
@@ -16,14 +18,15 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   let manifestUrl = "images/Favicon/site.webmanifest";
   manifestUrl =
     process.env.NEXT_PUBLIC_NODE_ENV !== "production"
       ? manifestUrl
       : `${process.env.NEXT_PUBLIC_ASSET_PREFIX || "/livsee"}/${manifestUrl}`;
+
   return (
     <html lang="en" className="scroll-smooth" data-scroll-behavior="smooth">
       <head>
@@ -44,15 +47,13 @@ export default function RootLayout({
           sizes="16x16"
           href={getImageUrl(Favicon16.src)}
         />
-        <link
-          rel="manifest"
-          href={manifestUrl}
-        />
+        <link rel="manifest" href={manifestUrl} />
       </head>
       <body>
         <ToastContainer />
         <Header />
-        {children}
+        {/* 👇 AOS initialized here */}
+        <AOSProvider>{children}</AOSProvider>
         <Footer />
       </body>
     </html>

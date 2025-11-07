@@ -29,7 +29,10 @@ export default function HeroBanner({ title, subtitle }: HeroBannerProps) {
         />
       {/* Green overlay */}
 
-      <div className="relative mx-auto max-w-full px-5 md:px-10 lg:px-10 xl:px-[80px] 2xl:px-[100px] text-(--Livsee-champagne)">
+      <div className="relative mx-auto max-w-full px-5 md:px-10 lg:px-10 xl:px-[80px] 2xl:px-[100px] text-(--Livsee-champagne)"
+              data-aos="fade-up"
+              data-aos-once="true"
+      >
         <div className="grid grid-cols-1 md:grid-cols-1">
           {/* Text content */}
           <div className="pt-[148px] md:pt-[180px] xl:pt-[190px] 2xl:pt-[200px]">

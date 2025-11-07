@@ -4,7 +4,11 @@ import LivseeLogomarkRGBreverse from "@/public/images/logo/Livsee-Logomark-RGB_r
 import { COMPANY_EMAIL, INSTAGRAM, LINKDIN, NEWSLETTER } from "@/utils";
 export default function Footer() {
   return (
-    <footer>
+    <footer 
+        data-aos="fade-up"
+        data-aos-duration="1000"
+        data-aos-once="true"
+        >
       <div className="mx-auto max-w-full px-5 md:px-[40px] xl:px-[80px] 2xl:px-[100px] text-(--Livsee-champagne) pt-[40] pb-[40] bg-(--Livsee-emerald) text-white py-8 px-4">
         <div className="">
           <Image

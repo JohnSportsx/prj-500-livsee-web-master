@@ -63,10 +63,11 @@ export default function Contact() {
 
     setLoading(true);
     try {
-      const response = await fetch("/api/email", {
+      const response = await fetch(process.env.NEXT_PUBLIC_EMAIL_API!, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
+          "Authorization": `Bearer ${process.env.SUPABASE_TOKEN!}`
         },
         body: JSON.stringify(formData),
       });
@@ -98,7 +99,10 @@ export default function Contact() {
   return (
     <>
       <CommonHeroBanner title="Contact" subtitle="Get in touch with us!" />
-      <section className="text-[var(--color-light-text)]">
+      <section className="text-[var(--color-light-text)]" 
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-once="true">
         <div className="mx-auto pt-[50px] md:pt-[80px] pb-[50px] md:pb-[80px] px-5 md:px-10 lg:px-10 xl:px-[80px]">
           <div className="text-center max-w-full md:max-w-[590px] mx-auto">
             <h2 className="font-serif text-[24px] md:text-[40px] 2xl:text-[47px] leading-[1.2] text-center mb-[30px] lg:mb-[40px] xl:mb-[40px] 2xl:mb-[50px]">

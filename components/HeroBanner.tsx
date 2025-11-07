@@ -34,7 +34,11 @@ export default function CommonHeroBanner() {
       <div className="relative mx-auto max-w-full px-5 md:px-10 lg:px-10 xl:px-[80px] 2xl:px-[100px] text-(--Livsee-champagne)">
         <div className="grid grid-cols-1 md:grid-cols-1">
           {/* Text content */}
-          <div className="pt-[200px] md:pt-[250px] 2xl:pt-[300px]">
+          <div className="pt-[200px] md:pt-[250px] 2xl:pt-[300px]"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-once="true"
+          >
             <h1 className="font-dm-serif leading-[1.2] font-500 text-[40px] md:text-[58px] 2xl:text-[81px]">
               Go beyond the conversation.
             </h1>

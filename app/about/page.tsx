@@ -11,11 +11,19 @@ export default function AboutPage() {
     <section className="text-[var(--color-light-text)]">
       <div className="mx-auto pt-[50px] md:pt-[80px] pb-[0] px-5 md:px-10 lg:px-10 xl:px-[80px] 2xl:md:px-0">
         <div className="text-center max-w-full 2xl:max-w-[1204px] mx-auto">
-          <h2 className="font-serif text-[24px] md:text-[40px] 2xl:text-[47px] leading-[1.2] text-center mb-[30px] lg:mb-[40px] xl:mb-[40px] 2xl:mb-[50px]">
+          <h2 className="font-serif text-[24px] md:text-[40px] 2xl:text-[47px] leading-[1.2] text-center mb-[30px] lg:mb-[40px] xl:mb-[40px] 2xl:mb-[50px]"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-once="true"
+          >
             Who We Are
           </h2>
           <div className="text-left ">
-            <div className="">
+            <div className=""
+             data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-once="true"
+            >
               <h3 className="font-serif text-[20px] md:text-[30px] lg:text-[37px] pb-[15px] md:pb-[20px] leading-none">Our Mission</h3>
               <div className="h-1 w-[50px] bg-[var(--Livse-peach)]"></div>
               <p className="mt-[15px] md:mt-[30px] text-[16px] md:text-[18px] 2xl:text-[20px] leading-[1.4] pb-[15px] md:pb-[30px]">Our mission is to increase occupancy in the most competitive markets by leveraging advanced AI and deep industry knowledge to connect with more prospective renters and deliver strategic incentives based on real-time insights.</p>

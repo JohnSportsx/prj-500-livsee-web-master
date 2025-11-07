@@ -8,14 +8,17 @@ import Comprehensive from "@/public/images/MeetLivSee/Comprehensive.png";
 export default function MeetLivsee() {
   return (
     <section
-      className="text-(--color-light-text) border-b-[6px] xl:border-b-[8px] border-(--Livse-peach)"
-      id="meet_livsee"
-    >
-      <div className="mx-auto pt-[50px] lg:pt-[80px] pb-[30px] md:pb-[47px] px-5 md:px-0">
-        <div className="text-center max-w-full md:max-w-[90%] lg:max-w-[100%] xl:max-w-[65%] 2xl:max-w-[55%]  mx-auto">
-          <h2 className="font-serif text-[24px] md:text-[40px] 2xl:text-[47px] leading-[1.2]">
+      className="text-(--color-light-text)"
+      id="meet_livsee" >
+      <div className="mx-auto pt-[50px] lg:pt-[80px] pb-[30px] md:pb-[47px] px-5 md:px-0"       
+        data-aos="fade-up"
+        data-aos-duration="1000"
+        data-aos-once="true"
+      >
+        <h2 className="font-serif text-[24px] md:text-[40px] 2xl:text-[47px] leading-[1.2] text-center">
             Meet Livsee: Agentic AI for Multifamily Leasing
           </h2>
+        <div className="text-center max-w-full md:max-w-[90%] lg:max-w-[100%] xl:max-w-[65%] 2xl:max-w-[55%]  mx-auto">          
           <p className="mt-[9px] text-[16px] md:text-[20px] 2xl:text-[23px] px-0 md:px-[70px] leading-[1.4]">
             Livsee is the next generation of agentic AI, purpose-built for
             multifamily. It connects first-party prospect data with real-time
@@ -28,8 +31,13 @@ export default function MeetLivsee() {
         </div>
       </div>
 
-      <div className="block xl:hidden pb-[30px]">
-        <div className="grid grid-cols-2 gap-4 xl:flex xl:justify-center xl:items-center xl:gap-8">
+      <div className="block xl:hidden pb-[30px]" 
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-once="true"
+      >
+        <div className="grid grid-cols-2 gap-4 xl:flex xl:justify-center xl:items-center xl:gap-8" 
+        >
           {/* First image */}
           <div className="relative overflow-hidden xl:w-[50%]">
             <Image
@@ -56,8 +64,12 @@ export default function MeetLivsee() {
         </div>
       </div>
 
-      <div className="mx-auto max-w-fill pb-[50px] lg:pb-20">
-        <div className="grid grid-cols-1 lg:grid-cols-[auto_auto] gap-[15px] lg:gap-[0px] items-center">
+      <div className="mx-auto max-w-fill pb-[50px] lg:pb-20" >
+        <div className="grid grid-cols-1 lg:grid-cols-[auto_auto] gap-[15px] lg:gap-[0px] items-center"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-once="true"
+        >
           <div className="hidden xl:block">
             <div className="relative w-[635px] md:w-[500px] 2xl:w-[635px] aspect-[635/500]">
               <Image
@@ -129,7 +141,11 @@ export default function MeetLivsee() {
           </div>
         </div>
 
-        <div className="mt-10 md:mt-[30px] lg:mt-[60px] grid grid-cols-1 lg:grid-cols-[auto_auto] gap-[15px] lg:gap-[30px] items-center">
+        <div className="mt-10 md:mt-[30px] lg:mt-[60px] grid grid-cols-1 lg:grid-cols-[auto_auto] gap-[15px] lg:gap-[30px] items-center"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-once="true"
+        >
           <div className="space-y-8 pr-5 lg:pr-0 2xl:pr-0 lg:pl-[40px] xl:pl-[80px] 2xl:pl-[200px] pl-5">
             <div className="flex gap-5 md:gap-[30px]">
               <div className="shrink-0">
