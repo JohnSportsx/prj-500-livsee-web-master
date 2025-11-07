@@ -29,3 +29,16 @@ body {
     font-family: var(--font-serif);
   }
 }
+
+
+@media (min-width: 1440px) and (max-width: 1700px) {
+  .text-rgt-mid{
+    padding-right: 100px !important;
+  }
+   .text-lft-mid{
+    padding-left: 100px !important;
+  }
+  .logo_clnt_size{
+    width: 185px !important;
+  }
+}

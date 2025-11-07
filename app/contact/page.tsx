@@ -2,7 +2,6 @@
 import CommonHeroBanner from "@/components/CommonHeroBanner";
 import { useState, ChangeEvent, FormEvent } from "react";
 import { toast } from "react-toastify";
-// 
 
 interface FormData {
   name: string;
@@ -68,7 +67,7 @@ export default function Contact() {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
-          "Authorization": `Bearer ${process.env.NEXT_PUBLIC_SUPABASE_TOKEN!}`
+          "Authorization": `Bearer ${process.env.NEXT_PUBLIC_SUPABASE_TOKEN}`
         },
         body: JSON.stringify(formData),
       });

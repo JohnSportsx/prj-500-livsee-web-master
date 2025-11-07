@@ -1,3 +1,4 @@
+"use client"
 import Image from "next/image";
 import Link from "next/link";
 import MobileHeroImage from "@/public/images/hero/hero-mobile.jpg";
@@ -5,6 +6,24 @@ import DesktopHeroImage from "@/public/images/hero/hero-desktop.jpg";
 import { BOOK_DEMO } from "@/utils";
 
 export default function CommonHeroBanner() {
+  const handleSmoothScroll = (
+    e: React.MouseEvent<HTMLAnchorElement>,
+    targetId: string
+  ) => {
+    e.preventDefault();
+
+    if (typeof window !== "undefined") {
+      const targetElement = document.getElementById(targetId);
+
+      if (targetElement) {
+        targetElement.scrollIntoView({
+          behavior: "smooth",
+          block: "start",
+        });
+      }
+    }
+  };
+  const targetId = "meet_livsee";
   return (
     <section
       className="relative isolate overflow-hidden text-(--Livsee-champagne)
@@ -34,10 +53,11 @@ export default function CommonHeroBanner() {
       <div className="relative mx-auto max-w-full px-5 md:px-10 lg:px-10 xl:px-[80px] 2xl:px-[100px] text-(--Livsee-champagne)">
         <div className="grid grid-cols-1 md:grid-cols-1">
           {/* Text content */}
-          <div className="pt-[200px] md:pt-[250px] 2xl:pt-[300px]"
-                data-aos="fade-up"
-                data-aos-duration="1000"
-                data-aos-once="true"
+          <div
+            className="pt-[200px] md:pt-[250px] 2xl:pt-[300px]"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-once="true"
           >
             <h1 className="font-dm-serif leading-[1.2] font-500 text-[40px] md:text-[58px] 2xl:text-[81px]">
               Go beyond the conversation.
@@ -49,7 +69,9 @@ export default function CommonHeroBanner() {
             </p>
             <div className="mt-5 flex flex-wrap gap-2">
               <Link
-                href="#meet_livsee"
+                href={`#${targetId}`}
+                onClick={(e) => handleSmoothScroll(e, targetId)}
+                // href="#meet_livsee"
                 className="rounded-full border-2 border-(--Live-see-btn) text-(--Livsee-emerald) font-semibold
                           text-[14px] md:text-[16px] 2xl:text-[20px] px-5 md:px-6 2xl:px-[27px] py-[8.5px] md:py-[9.5px] 2xl:py-[10.5px]
                           hover:border-(--Live-see-btn-hover) hover:text-(--Live-see-btn-hover) bg-(--Livsee-champagne) hover:bg-transparent

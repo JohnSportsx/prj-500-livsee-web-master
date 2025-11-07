@@ -60,7 +60,7 @@ export default function TrustedByIndustry() {
               {logos.map((logo, i) => (
                 <div
                   key={i}
-                  className="flex w-40 lg:w-45 xl:w-40 2xl:w-65 items-center justify-center bg-[var(--logo-bg)] border border-[var(--logo-bdr)] rounded-xl"
+                  className="flex w-40 lg:w-45 xl:w-40 2xl:w-65 items-center justify-center bg-[var(--logo-bg)] border border-[var(--logo-bdr)] rounded-xl logo_clnt_size"
                 >
                   <div className="relative w-full md:h-[120px] lg:h-[135px] xl:h-[145px] 2xl:h-[160px] p-0">
                       <Image

@@ -83,7 +83,7 @@ export default function MeetLivsee() {
             </div>
           </div>
 
-          <div className="space-y-8 pr-5 md:pr-[20px] lg:pr-[40px] xl:pr-[80px] 2xl:pr-[200px] pl-5 md:pl-[20px] lg:pl-[40px]">
+          <div className="space-y-8 pr-5 md:pr-[20px] lg:pr-[40px] xl:pr-[80px] 2xl:pr-[200px] pl-5 md:pl-[20px] lg:pl-[40px] text-rgt-mid">
             <div className="flex gap-5 md:gap-[30px]">
               <div className="shrink-0">
                 <div className="relative w-[60px] md:w-[90px] 2xl:w-[125px] h-auto">
@@ -146,7 +146,7 @@ export default function MeetLivsee() {
             data-aos-duration="1000"
             data-aos-once="true"
         >
-          <div className="space-y-8 pr-5 lg:pr-0 2xl:pr-0 lg:pl-[40px] xl:pl-[80px] 2xl:pl-[200px] pl-5">
+          <div className="space-y-8 pr-5 lg:pr-0 2xl:pr-0 lg:pl-[40px] xl:pl-[80px] 2xl:pl-[200px] pl-5 text-lft-mid">
             <div className="flex gap-5 md:gap-[30px]">
               <div className="shrink-0">
                 <div className="relative w-[60px] md:w-[90px] 2xl:w-[125px] h-auto">
