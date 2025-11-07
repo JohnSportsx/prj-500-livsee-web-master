@@ -9,6 +9,7 @@ import NAA from '@/public/images/Affiliations/naa.png';
 import AAGD from '@/public/images/Affiliations/aagd.png';
 import USProptech from '@/public/images/Affiliations/us.png';
 import Home from '@/public/images/Affiliations/home.png';
+import Yardi from '@/public/images/Affiliations/yardi.png';
 
 export default function TrustedByIndustry() {
   const logos = [
@@ -19,6 +20,7 @@ export default function TrustedByIndustry() {
     { src: AAGD.src, alt: "AAGD" },
     { src: USProptech.src, alt: "US Proptech Council" },
     { src: Home.src, alt: "Home" },
+    { src: Yardi.src, alt: "Yardi" }    
   ];
 
   return (
@@ -54,9 +56,9 @@ export default function TrustedByIndustry() {
               {logos.map((logo, i) => (
                 <div
                   key={i}
-                  className="flex  w-40 md:w-40 lg:w-45 2xl:w-65 items-center justify-center bg-[var(--logo-bg)] border border-[var(--logo-bdr)] rounded-xl"
+                  className="flex w-40 lg:w-45 xl:w-40 2xl:w-65 items-center justify-center bg-[var(--logo-bg)] border border-[var(--logo-bdr)] rounded-xl"
                 >
-                  <div className="relative w-full md:h-[120px] lg:h-[135px] 2xl:h-[160px] p-0">
+                  <div className="relative w-full md:h-[120px] lg:h-[135px] xl:h-[145px] 2xl:h-[160px] p-0">
                       <Image
                         src={logo.src}
                         alt={logo.alt}
@@ -103,6 +105,7 @@ export default function TrustedByIndustry() {
                   { src: "images/Affiliations/aagd.png", alt: "AAGD" },
                   { src: "images/Affiliations/us.png", alt: "US Proptech Council" },
                   { src: "images/Affiliations/home.png", alt: "Home" },
+                   { src: Yardi.src, alt: "Yardi" } 
                 ]}
               />
           </div>

@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import MobileHeroImage from "@/public/images/hero/hero-mobile.jpg";
 import DesktopHeroImage from "@/public/images/hero/hero-desktop.jpg";
+import { BOOK_DEMO } from "@/utils";
 
 export default function CommonHeroBanner() {
   return (
@@ -54,7 +55,7 @@ export default function CommonHeroBanner() {
               </Link>
 
               <Link
-                href={"/book_demo"}
+                href={BOOK_DEMO}
                 className="rounded-full border-2 border-(--Live-see-btn) text-(--Live-see-btn) font-semibold
                           text-[14px] md:text-[16px] 2xl:text-[20px] px-5 md:px-6 2xl:px-[29px] py-[8.5px] md:py-[9.5px] 2xl:py-[10.5px]
                           hover:border-(--Live-see-btn-hover) hover:text-(--Live-see-btn-hover) hover:bg-transparent

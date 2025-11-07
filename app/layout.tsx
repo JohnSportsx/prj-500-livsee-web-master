@@ -7,6 +7,7 @@ import { getImageUrl } from "@/utils";
 import AppleTouchIcon from "@/public/images/Favicon/apple-touch-icon.png";
 import Favicon32 from "@/public/images/Favicon/favicon-32x32.png";
 import Favicon16 from "@/public/images/Favicon/favicon-16x16.png";
+import { ToastContainer } from "react-toastify";
 
 export const metadata: Metadata = {
   title: "LivSee",
@@ -49,6 +50,7 @@ export default function RootLayout({
         />
       </head>
       <body>
+        <ToastContainer />
         <Header />
         {children}
         <Footer />

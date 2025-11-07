@@ -6,7 +6,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import LiveLogo from "@/public/images/logo/Livsee-Logo-RGB_champagne.svg"
 import LivSeeLogoMarkRGB from "@/public/images/logo/Livsee-Logomark-RGB_champagne.svg";
-import { BLOG_URL, LOGIN_URL, NEWS_URL } from "@/utils";
+import { BLOG_URL, BOOK_DEMO, LOGIN_URL, NEWS_URL } from "@/utils";
 
 interface NavItem {
   label: string;
@@ -14,11 +14,11 @@ interface NavItem {
 }
 
 const NAV: NavItem[] = [
-  { label: "Meet Livsee®", href: "/" },
+  { label: "Meet Livsee®", href: "/#meet_livsee" },
   { label: "Who We Are", href: "/about" },
   { label: "FAQ", href: "/faq" },
-  { label: "Connect", href: "/connect" },
-  { label: "Support", href: "/support" },
+  // { label: "Connect", href: "/connect" },
+  // { label: "Support", href: "/support" },
   { label: "News", href: NEWS_URL },
   { label: "Blog", href: BLOG_URL },
   { label: "Contact", href: "/contact" },
@@ -60,8 +60,8 @@ export default function Header() {
           </Link>
 
           {/* Desktop Nav */}
-          <div className="ml-auto hidden xl:flex items-center gap-[20px] lg:gap-[20px] xl:gap-[20px] 2xl:gap-[50px]">
-            <nav className="flex items-center gap-[20px] lg:gap-[20px] xl:gap-[26px] 2xl:gap-[50px]">
+          <div className="ml-auto hidden xl:flex items-center gap-[20px] lg:gap-[24px] xl:gap-[40px] 2xl:gap-[50px]">
+            <nav className="flex items-center gap-[20px] lg:gap-[24px] xl:gap-[40px] 2xl:gap-[50px]">
               {NAV.map((n) => {
                 const isActive = pathname === n.href;
                 return (
@@ -69,7 +69,7 @@ export default function Header() {
                     key={n.label}
                     href={n.href}
                     prefetch={false}
-                    className={`font-semibold text-[16px] md:text-[16px] 2xl:text-[20px] transition-colors duration-300
+                    className={`font-semibold text-[16px] md:text-[16px] lg:text-[18px] 2xl:text-[20px] transition-colors duration-300
                       ${
                         isActive
                           ? "text-(--Live-see-btn-hover)"
@@ -84,7 +84,8 @@ export default function Header() {
 
             <div className="flex items-center gap-2">
               <Link
-                href={"/book_demo"}
+                href={BOOK_DEMO}
+                // target="/bank"
                 className="rounded-full border-2 border-(--Live-see-btn) text-(--Live-see-btn) font-semibold
                   text-[16px] md:text-[16px] 2xl:text-[20px] px-5 md:px-6 2xl:px-[27px] py-[8.5px] md:py-[9.5px] 2xl:py-[10.5px]
                   hover:border-(--Live-see-btn-hover) hover:text-(--Live-see-btn-hover) hover:bg-transparent

@@ -9,6 +9,7 @@ import NAA from '@/public/images/Affiliations/naa.png';
 import AAGD from '@/public/images/Affiliations/aagd.png';
 import USProptech from '@/public/images/Affiliations/us.png';
 import Home from '@/public/images/Affiliations/home.png';
+import Yardi from '@/public/images/Affiliations/yardi.png';
 
 export type PartnerItem = { src: string; alt: string };
 
@@ -27,6 +28,7 @@ export default function LogoSlider({
     { src: AAGD.src, alt: "AAGD" },
     { src: USProptech.src, alt: "US Proptech Council" },
     { src: Home.src, alt: "Home" },
+    { src: Yardi.src, alt: "Yardi" }    
   ],
   autoPlay = true,
   autoPlayMs = 4000,

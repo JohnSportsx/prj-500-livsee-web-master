@@ -1,6 +1,7 @@
 "use client";
 import CommonHeroBanner from "@/components/CommonHeroBanner";
 import { useState, ChangeEvent, FormEvent } from "react";
+import { toast } from "react-toastify";
 
 interface FormData {
   name: string;
@@ -22,8 +23,11 @@ export default function Contact() {
   });
 
   const [errors, setErrors] = useState<FormErrors>({});
+  const [loading, setLoading] = useState<boolean>(false);
 
-  const handleChange = (e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  const handleChange = (
+    e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => {
     const { name, value } = e.target;
     setFormData({
       ...formData,
@@ -37,10 +41,9 @@ export default function Contact() {
     });
   };
 
-  const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
-    // Validate required fields
     const newErrors: FormErrors = {};
 
     if (!formData.name) {
@@ -58,7 +61,38 @@ export default function Contact() {
       return;
     }
 
-    console.log("Form submitted:", formData);
+    setLoading(true);
+    try {
+      const response = await fetch("/api/email", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
+
+      if (response.status === 200) {
+        setFormData({
+          name: "",
+          email: "",
+          message: "",
+        });
+        setErrors({});
+        toast("Email sent", {
+          type: "success",
+        });
+      }else{
+        toast("Something went wrong", {type: "error"});
+      }
+    } catch (error: Error | unknown) {
+      console.log(
+        "Error submitting form:",
+        error instanceof Error ? error.message : error
+      );
+      toast("Something went wrong", {type: "error"});
+    } finally {
+      setLoading(false);
+    }
   };
 
   return (
@@ -70,7 +104,10 @@ export default function Contact() {
             <h2 className="font-serif text-[24px] md:text-[40px] 2xl:text-[47px] leading-[1.2] text-center mb-[30px] lg:mb-[40px] xl:mb-[40px] 2xl:mb-[50px]">
               Contact Us
             </h2>
-            <form onSubmit={handleSubmit} className="max-w-3xl mx-auto text-left">
+            <form
+              onSubmit={handleSubmit}
+              className="max-w-3xl mx-auto text-left"
+            >
               {/* Name Field */}
               <div className="mb-[20px] md:mb-[24px] 2xl:mb-[30px]">
                 <label
@@ -89,7 +126,11 @@ export default function Contact() {
                   }`}
                   placeholder="Your Name"
                 />
-                {errors.name && <p className="text-red-500 text-[16px] md:text-[18px] 2xl:text-[20px] mt-2">{errors.name}</p>}
+                {errors.name && (
+                  <p className="text-red-500 text-[16px] md:text-[18px] 2xl:text-[20px] mt-2">
+                    {errors.name}
+                  </p>
+                )}
               </div>
 
               {/* Email Field */}
@@ -110,39 +151,52 @@ export default function Contact() {
                   }`}
                   placeholder="example@example.com"
                 />
-                {errors.email && <p className="text-red-500 text-[16px] md:text-[18px] 2xl:text-[20px] mt-2">{errors.email}</p>}
+                {errors.email && (
+                  <p className="text-red-500 text-[16px] md:text-[18px] 2xl:text-[20px] mt-2">
+                    {errors.email}
+                  </p>
+                )}
               </div>
 
               {/* Message Field */}
               <div className="mb-[20px] md:mb-[24px] 2xl:mb-[30px]">
                 <div className="flex flex-wrap gap-0">
-                <label
-                  className="text-[16px] md:text-[18px] 2xl:text-[20px] leading-[1.4] text-[var(--color-light-text)]"
-                  htmlFor="message"
-                >
-                  Message*
-                </label>
-                <textarea
-                  name="message"
-                  value={formData.message}
-                  onChange={handleChange}
-                  className={`mt-[5px] lg:mt-[9px] px-[16px] md:px-[18px] 2xl:px-[20px] py-[10px] md:py-[12px] 2xl:py-[15px] w-full border border-(--Livse-peach) rounded-lg focus:outline-none focus-visible:none focus-visible:none text-[16px] md:text-[18px] 2xl:text-[20px] bg-white placeholder-[#99867a] ${
-                    errors.message ? "border-red-500" : ""
-                  }`}
-                  placeholder="Your Message"
-                  rows={6}
-                />
+                  <label
+                    className="text-[16px] md:text-[18px] 2xl:text-[20px] leading-[1.4] text-[var(--color-light-text)]"
+                    htmlFor="message"
+                  >
+                    Message*
+                  </label>
+                  <textarea
+                    name="message"
+                    value={formData.message}
+                    onChange={handleChange}
+                    className={`mt-[5px] lg:mt-[9px] px-[16px] md:px-[18px] 2xl:px-[20px] py-[10px] md:py-[12px] 2xl:py-[15px] w-full border border-(--Livse-peach) rounded-lg focus:outline-none focus-visible:none focus-visible:none text-[16px] md:text-[18px] 2xl:text-[20px] bg-white placeholder-[#99867a] ${
+                      errors.message ? "border-red-500" : ""
+                    }`}
+                    placeholder="Your Message"
+                    rows={6}
+                  />
                 </div>
-                {errors.message && <p className="text-red-500 text-[16px] md:text-[18px] 2xl:text-[20px] mt-2">{errors.message}</p>}
+                {errors.message && (
+                  <p className="text-red-500 text-[16px] md:text-[18px] 2xl:text-[20px] mt-2">
+                    {errors.message}
+                  </p>
+                )}
               </div>
 
               {/* Submit Button */}
               <div className="text-right">
                 <button
                   type="submit"
-                  className="rounded-full border-2 bg-(--Livsee-emerald) text-(--Livsee-champagne) font-semibold text-[16px] md:text-[16px] 2xl:text-[20px] px-5 md:px-6 2xl:px-[27px] py-[8.5px] md:py-[9.5px] 2xl:py-[10.5px] hover:border-(--Livsee-emerald) hover:text-(--Livsee-emerald) hover:bg-transparent transition-colors duration-300 cursor-pointer"
+                  className={`rounded-full border-0 bg-(--Livsee-emerald) text-(--Livsee-champagne) font-semibold text-[16px] md:text-[16px] 2xl:text-[20px] px-5 md:px-6 2xl:px-[27px] py-[8.5px] md:py-[9.5px] 2xl:py-[10.5px] hover:border-[#507360] hover:text-white hover:bg-[#507360] transition-colors duration-300 cursor-pointer ${
+                    loading
+                      ? "bg-(--Livsee-emerald) cursor-not-allowed opacity-50 hover:cursor-not-allowed hover:bg-(--Livsee-emerald)"
+                      : ""
+                  }`}
+                  disabled={loading}
                 >
-                  Submit
+                  {loading ? "Loading..." : "Submit"}
                 </button>
               </div>
             </form>

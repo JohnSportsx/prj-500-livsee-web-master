@@ -1,14 +1,14 @@
 import Image from "next/image";
 import Link from "next/link";
-import LivSeeLogoMarkRGB from "@/public/images/logo/Livsee-Logomark-RGB_champagne.svg";
-import { COMPANY_EMAIL } from "@/utils";
+import LivseeLogomarkRGBreverse from "@/public/images/logo/Livsee-Logomark-RGB_reverse.svg";
+import { COMPANY_EMAIL, INSTAGRAM, LINKDIN, NEWSLETTER } from "@/utils";
 export default function Footer() {
   return (
     <footer>
       <div className="mx-auto max-w-full px-5 md:px-[40px] xl:px-[80px] 2xl:px-[100px] text-(--Livsee-champagne) pt-[40] pb-[40] bg-(--Livsee-emerald) text-white py-8 px-4">
         <div className="">
           <Image
-            src={LivSeeLogoMarkRGB.src}
+            src={LivseeLogomarkRGBreverse.src}
             alt="Logo"
             width={90}
             height={90}
@@ -39,7 +39,7 @@ export default function Footer() {
 
               <div className="mt-[20px] md:mt-[30px] 2xl:mt-[34px]  flex items-center gap-3">
                 <Link
-                  href="#"
+                  href={LINKDIN}
                   className="group inline-flex h-11 w-11 items-center justify-center rounded-full border-2 border-(--Livsee-champagne) transition-all duration-300 hover:bg-transparent hover:border-white"
                   aria-label="Mail"
                 >
@@ -66,26 +66,15 @@ export default function Footer() {
                 </Link>
 
                 <Link
-                  href={`mailto:${COMPANY_EMAIL}`}
+                  href={INSTAGRAM}
                   className="group inline-flex h-11 w-11 items-center justify-center rounded-full border-2 border-(--Livsee-champagne) transition-all duration-300 hover:bg-transparent hover:border-white"
                   aria-label="Mail"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    width="24"
-                    height="24"
-                    className="text-(--Livsee-champagne) transition-colors duration-300 group-hover:text-white"
-                  >
-                    <g
-                      fill="none"
-                      stroke="currentColor"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                    >
-                      <path d="M4 5h16c0.55 0 1 0.45 1 1v12c0 0.55 -0.45 1 -1 1h-16c-0.55 0 -1 -0.45 -1 -1v-12c0 -0.55 0.45 -1 1 -1Z" />
-                      <path d="M3 6.5l9 5.5l9 -5.5" />
+                >                  
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"  className="text-(--Livsee-champagne) transition-colors duration-300 group-hover:text-white">
+                    <circle cx="17" cy="7" r="1.5" fill="currentColor" />
+                    <g fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2">
+                      <path d="M16 3c2.76 0 5 2.24 5 5v8c0 2.76 -2.24 5 -5 5h-8c-2.76 0 -5 -2.24 -5 -5v-8c0 -2.76 2.24 -5 5 -5h4Z" />
+                      <path d="M12 8c2.21 0 4 1.79 4 4c0 2.21 -1.79 4 -4 4c-2.21 0 -4 -1.79 -4 -4c0 -2.21 1.79 -4 4 -4" />
                     </g>
                   </svg>
                 </Link>
@@ -101,29 +90,20 @@ export default function Footer() {
               <p className="mb-[12px] md:mb-[15px] xl:mb-[15px] 2xl:mb-[15px] mt-[10px] md:mt-[20px] xl:mt-[20px] 2xl:mt-[20px] max-w-3xl text-[16px] md:text-[16px] 2xl:text-[18px] leading-[1.4]">
                 Follow our journey.
               </p>
-              <div className="flex items-center border bg-white rounded-full ">
-                <input
-                  type="email"
-                  placeholder="Subscribe with your email"
-                  className="h-[48px] md:h-full w-full px-5 bg-transparent text-(--Livsee-emerald) outline-none text-[14px] md:text-[16px] 2xl:text-[18px] py-3"
-                />
-                <button className="px-2 py-2 md:px-[13px] md:py-[13px] 2xl:px-[15px] 2xl:py-[15px] bg-(--Livsee-emerald) text-white rounded-full hover:bg-[#507360] hover:text-(--Livsee-champagne) m-[4px] cursor">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      fill="none"
-                      stroke="currentColor"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M16 12l-7 -7M16 12l-7 7"
-                    />
-                  </svg>
-                </button>
+              <div className="">
+                   <iframe
+                      src={NEWSLETTER}
+                      data-test-id="beehiiv-embed"
+                      height="52"
+                      frameBorder="0"
+                      scrolling="no"
+                      style={{
+                        margin: 0,
+                        borderRadius: 0,
+                        backgroundColor: "transparent",
+                        width: "100%",
+                      }}
+                    ></iframe>
               </div>
             </div>
           </div>
